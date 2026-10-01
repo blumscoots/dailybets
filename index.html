@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daily Bets Board</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0d1117; --panel:#151b24; --panel2:#1b2330; --line:#263042;
+  --text:#e8edf4; --muted:#8b97a8; --accent:#3ddc84; --accent-ink:#06210f;
+  --warn:#f5b942; --neg:#ff6b6b; --chip:#212b3a;
+}
+:root[data-theme="light"]{
+  --bg:#f4f6f9; --panel:#ffffff; --panel2:#f0f3f7; --line:#dde3ea;
+  --text:#121821; --muted:#5d6a7c; --accent:#0f9d58; --accent-ink:#ffffff;
+  --warn:#b7791f; --neg:#c53030; --chip:#e9eef4;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.55 Inter,system-ui,sans-serif}
+a{color:var(--accent)}
+.wrap{max-width:980px;margin:0 auto;padding:0 16px 64px}
+header{padding:28px 0 12px;display:flex;justify-content:space-between;align-items:flex-end;gap:12px;flex-wrap:wrap}
+h1{font:700 40px/1 "Barlow Condensed",sans-serif;letter-spacing:.5px;margin:0;text-transform:uppercase}
+h1 span{color:var(--accent)}
+.meta{color:var(--muted);font-size:13px;text-align:right}
+.headline{color:var(--muted);margin:4px 0 16px;font-size:14px}
+.theme-btn{background:var(--chip);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:4px 10px;cursor:pointer;font-size:12px;margin-top:6px}
+nav.sports{display:flex;gap:6px;overflow-x:auto;padding-bottom:6px;scrollbar-width:thin}
+nav.sports button{flex:0 0 auto;background:var(--panel);border:1px solid var(--line);color:var(--text);
+  font:600 15px "Barlow Condensed",sans-serif;letter-spacing:.6px;text-transform:uppercase;padding:9px 14px;border-radius:10px;cursor:pointer}
+nav.sports button.on{background:var(--accent);color:var(--accent-ink);border-color:var(--accent)}
+.slate{background:var(--panel);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:10px;padding:12px 14px;margin:14px 0;color:var(--muted);font-size:14px}
+nav.subs{display:flex;gap:4px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:4px;width:max-content;max-width:100%;overflow-x:auto}
+nav.subs button{background:none;border:0;color:var(--muted);font:600 14px Inter,sans-serif;padding:7px 14px;border-radius:7px;cursor:pointer;white-space:nowrap}
+nav.subs button.on{background:var(--panel2);color:var(--text)}
+nav.subs .n{font-size:11px;background:var(--chip);border-radius:20px;padding:1px 7px;margin-left:5px}
+.cards{display:grid;gap:12px;margin-top:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px}
+.top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+.pick{font:700 22px/1.15 "Barlow Condensed",sans-serif;letter-spacing:.3px}
+.odds{font:700 22px "Barlow Condensed",sans-serif;color:var(--accent);white-space:nowrap}
+.sub{color:var(--muted);font-size:13px;margin-top:3px}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin:10px 0}
+.chip{background:var(--chip);border-radius:6px;padding:3px 8px;font-size:12px;color:var(--muted)}
+.chip b{color:var(--text);font-weight:600}
+.conf{letter-spacing:2px;color:var(--warn)}
+.why{margin:0;font-size:14.5px}
+.legs{list-style:none;padding:0;margin:10px 0;border:1px solid var(--line);border-radius:10px;overflow:hidden}
+.legs li{display:flex;justify-content:space-between;gap:10px;padding:9px 12px;border-top:1px solid var(--line);font-size:14px}
+.legs li:first-child{border-top:0}
+.legs .ev{color:var(--muted);font-size:12px}
+.payout{display:flex;justify-content:space-between;background:var(--panel2);padding:9px 12px;font-weight:600;font-size:14px}
+.src{margin-top:10px;font-size:12px;color:var(--muted)}
+.src a{margin-right:10px}
+.notes{margin-top:28px;color:var(--muted);font-size:13px}
+.notes li{margin:4px 0}
+.empty{color:var(--muted);padding:24px;text-align:center;border:1px dashed var(--line);border-radius:12px;margin-top:14px}
+footer{margin-top:28px;color:var(--muted);font-size:12px;border-top:1px solid var(--line);padding-top:14px}
+@media (max-width:560px){h1{font-size:32px}.meta{text-align:left}.pick,.odds{font-size:19px}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div>
+      <h1>Daily <span>Bets</span> Board</h1>
+    </div>
+    <div class="meta"><div id="date">Loading…</div><div id="updated"></div>
+      <button class="theme-btn" id="theme">Light / Dark</button></div>
+  </header>
+  <p class="headline" id="headline"></p>
+  <nav class="sports" id="sports"></nav>
+  <div class="slate" id="slate"></div>
+  <nav class="subs" id="subs"></nav>
+  <div id="content"></div>
+  <ul class="notes" id="notes"></ul>
+  <footer>Research-backed picks, not guarantees. Bet only what you can afford to lose. Problem gambling help: 1-800-GAMBLER.</footer>
+</div>
+<script>
+const SUBS=[["straight","Straight"],["parlay","Parlay"],["props","Player Props"]];
+let DATA,cur={sport:null,sub:"straight"};
+
+function fmtOdds(o){return o>0?"+"+o:String(o)}
+function dec(o){return o>0?1+o/100:1+100/Math.abs(o)}
+function toAm(d){return d>=2?"+"+Math.round((d-1)*100):String(Math.round(-100/(d-1)))}
+function esc(s){return String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
+function conf(n){return "●".repeat(n)+"○".repeat(5-n)}
+function sources(list){if(!list||!list.length)return"";return `<div class="src">Sources: ${list.map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a>`).join("")}</div>`}
+
+function single(p){return `<article class="card">
+  <div class="top"><div><div class="pick">${esc(p.pick)}</div><div class="sub">${esc(p.event)} · ${esc(p.time)}</div></div>
+  <div class="odds">${fmtOdds(p.odds)}</div></div>
+  <div class="chips"><span class="chip">${esc(p.market)}</span><span class="chip">Stake <b>${p.units}u</b></span>
+  <span class="chip">Confidence <span class="conf">${conf(p.confidence)}</span></span></div>
+  <p class="why">${esc(p.reasoning)}</p>${sources(p.sources)}</article>`}
+
+function parlay(p){
+  const d=p.legs.reduce((a,l)=>a*dec(l.odds),1);
+  return `<article class="card">
+  <div class="top"><div><div class="pick">${esc(p.title)}</div><div class="sub">${p.legs.length}-leg ${p.sgp?"same-game parlay":"parlay"}</div></div>
+  <div class="odds">${toAm(d)}</div></div>
+  <ul class="legs">${p.legs.map(l=>`<li><span>${esc(l.pick)} <span class="ev">· ${esc(l.event)}</span></span><b>${fmtOdds(l.odds)}</b></li>`).join("")}
+  <li class="payout"><span>$10 pays (est.)</span><span>$${(10*d).toFixed(2)}</span></li></ul>
+  <div class="chips"><span class="chip">Stake <b>${p.units}u</b></span><span class="chip">Confidence <span class="conf">${conf(p.confidence)}</span></span>
+  ${p.sgp?'<span class="chip">SGP — book price will be lower</span>':""}</div>
+  <p class="why">${esc(p.reasoning)}</p></article>`}
+
+function render(){
+  const s=DATA.sections.find(x=>x.id===cur.sport);
+  document.querySelectorAll("#sports button").forEach(b=>b.classList.toggle("on",b.dataset.id===cur.sport));
+  document.getElementById("slate").textContent=s.slate||"";
+  document.getElementById("subs").innerHTML=SUBS.map(([k,l])=>`<button data-k="${k}" class="${k===cur.sub?"on":""}">${l}<span class="n">${(s[k]||[]).length}</span></button>`).join("");
+  document.querySelectorAll("#subs button").forEach(b=>b.onclick=()=>{cur.sub=b.dataset.k;render()});
+  const items=s[cur.sub]||[];
+  document.getElementById("content").innerHTML=items.length
+    ?`<div class="cards">${items.map(cur.sub==="parlay"?parlay:single).join("")}</div>`
+    :`<div class="empty">No ${cur.sub==="props"?"player props":cur.sub} picks for this sport today.</div>`;
+  try{localStorage.setItem("db-tab",JSON.stringify(cur))}catch(e){}
+}
+
+function boot(d){
+  DATA=d;
+  const dt=new Date(d.date+"T12:00:00");
+  document.getElementById("date").textContent=dt.toLocaleDateString(undefined,{weekday:"long",month:"long",day:"numeric",year:"numeric"});
+  if(d.updated)document.getElementById("updated").textContent="Updated "+new Date(d.updated).toLocaleTimeString([], {hour:"numeric",minute:"2-digit"});
+  document.getElementById("headline").textContent=d.headline||"";
+  document.getElementById("notes").innerHTML=(d.notes||[]).map(n=>`<li>${esc(n)}</li>`).join("");
+  document.getElementById("sports").innerHTML=d.sections.map(s=>`<button data-id="${s.id}">${s.icon||""} ${esc(s.label)}</button>`).join("");
+  document.querySelectorAll("#sports button").forEach(b=>b.onclick=()=>{cur.sport=b.dataset.id;cur.sub="straight";render()});
+  try{const saved=JSON.parse(localStorage.getItem("db-tab"));if(saved&&d.sections.some(s=>s.id===saved.sport))cur=saved}catch(e){}
+  if(!cur.sport)cur.sport=d.sections[0].id;
+  render();
+}
+
+const root=document.documentElement;
+try{const t=localStorage.getItem("db-theme");if(t)root.dataset.theme=t}catch(e){}
+document.getElementById("theme").onclick=()=>{root.dataset.theme=root.dataset.theme==="light"?"dark":"light";try{localStorage.setItem("db-theme",root.dataset.theme)}catch(e){}};
+
+if(window.__PICKS__)boot(window.__PICKS__);
+else fetch("data/picks.json?v="+Date.now()).then(r=>r.json()).then(boot)
+  .catch(()=>{document.getElementById("content").innerHTML='<div class="empty">Couldn\'t load data/picks.json.</div>'});
+</script>
+</body>
+</html>

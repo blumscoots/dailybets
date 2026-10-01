@@ -1,0 +1,843 @@
+{
+  "date": "2026-10-01",
+  "updated": "2026-10-01T14:00:00-07:00",
+  "headline": "Thursday slate: NL Wild Card Game 3, TNF Steelers-Browns, WNBA Fever-Aces Game 3, 8 NHL games, Sounders-SKC, and Round 1 of the Bank of Utah Championship.",
+  "notes": [
+    "Odds are the best lines found this afternoon. They move — shop at least two books before betting and skip any pick whose price has moved past the 'playable to' number in the reasoning.",
+    "Same-game parlay (SGP) prices are set by the book and are usually lower than the multiplied odds shown here.",
+    "Unit = your standard bet size. Most picks are 0.5–1u. Nothing here is a lock."
+  ],
+  "sections": [
+    {
+      "id": "best",
+      "label": "Best of the Day",
+      "icon": "★",
+      "slate": "The strongest edges across every sport on today's card.",
+      "straight": [
+        {
+          "pick": "Steelers vs Browns UNDER 38.5",
+          "market": "Game total",
+          "odds": -118,
+          "units": 1,
+          "confidence": 4,
+          "event": "NFL · Steelers @ Browns",
+          "time": "5:15 PM PT",
+          "reasoning": "Three things line up. The market already agrees: this total opened 40.5 and has been bet down to 38.5. The weather helps — forecasts show roughly a 43% chance of showers and wind gusts up to 22 mph in Cleveland. And both offenses are limited on a short week: Aaron Rodgers is a 40-something QB on three days' rest facing a Browns secondary that ranks top-12 in dropback EPA, while Deshaun Watson hasn't attempted more than 30 passes in any game. The SportsLine model (10,000 sims) also lands on the Under. Playable to 38.",
+          "sources": [
+            {
+              "title": "CBS/SportsLine model pick",
+              "url": "https://www.cbssports.com/betting/news/browns-steelers-predictions-odds-time-week-4-thursday-night-football-picks-bets/"
+            },
+            {
+              "title": "Covers early leans + weather",
+              "url": "https://www.covers.com/nfl/steelers-vs-browns-predictions-odds-early-leans-week-4-2026"
+            },
+            {
+              "title": "Fantasy Life line movement",
+              "url": "https://www.fantasylife.com/articles/betting/steelers-vs-browns-picks-odds-predictions-and-player-props"
+            }
+          ]
+        },
+        {
+          "pick": "Seattle Sounders -1 (Asian handicap)",
+          "market": "Goal spread",
+          "odds": 102,
+          "units": 1,
+          "confidence": 4,
+          "event": "MLS · Sporting KC @ Seattle",
+          "time": "6:30 PM PT",
+          "reasoning": "-1 means a 2+ goal Seattle win pays, a 1-goal win refunds your stake, and anything else loses. Sporting KC is 2-0-8 on the road and has taken zero points from its last eight trips to Seattle, Portland and Vancouver (2024–26), conceding 24 goals and scoring 4 in those games. Seattle has won two straight and scored 9 goals in its last 4. The last meeting at Lumen Field ended 5-2. Dimers' model gives Seattle a 65% win chance. Playable to -110.",
+          "sources": [
+            {
+              "title": "DailySports preview (SKC road record)",
+              "url": "https://dailysports.net/predictions/seattle-sounders-vs-sporting-kansas-city-prediction-can-sporting-pull-off-a-surprise-in-seattle/"
+            },
+            {
+              "title": "Dimers model",
+              "url": "https://www.dimers.com/mls/news/seattle-sounders-vs-sporting-kansas-city-prediction-10-01-2026-ac"
+            },
+            {
+              "title": "Full odds board",
+              "url": "https://lasvegassportsbetting.com/seattle-sounders-fc-vs-sporting-kc-mls-match-odds-props-picks-2026-10-01"
+            }
+          ]
+        },
+        {
+          "pick": "Fever vs Aces OVER 180.5",
+          "market": "Game total",
+          "odds": -112,
+          "units": 1,
+          "confidence": 3,
+          "event": "WNBA Playoffs · Fever @ Aces, Game 3",
+          "time": "6:00 PM PT",
+          "reasoning": "These teams finished the regular season #1 and #2 in scoring, combining for about 187.5 points per game, and Indiana plays at the league's fastest pace. The series has stayed in that range: Vegas scored 102 in Game 1, and Game 2 finished 99-89 (188 total). Caitlin Clark is taking 10.5 threes a game in the playoffs, which keeps possessions short. Playable to 182.5.",
+          "sources": [
+            {
+              "title": "Yahoo/SportsGrid pick",
+              "url": "https://sports.yahoo.com/articles/fever-vs-aces-prediction-pick-122815671.html"
+            },
+            {
+              "title": "SI odds + injuries",
+              "url": "https://www.si.com/betting/fever-vs-aces-prediction-odds-best-prop-bet-wnba-playoffs-game-3-2026"
+            }
+          ]
+        }
+      ],
+      "parlay": [
+        {
+          "title": "Thursday Night Four-Sport",
+          "legs": [
+            {
+              "pick": "Steelers/Browns UNDER 38.5",
+              "odds": -118,
+              "event": "NFL"
+            },
+            {
+              "pick": "Lightning ML",
+              "odds": -142,
+              "event": "NHL · Rangers @ Lightning"
+            },
+            {
+              "pick": "Fever/Aces OVER 180.5",
+              "odds": -112,
+              "event": "WNBA"
+            },
+            {
+              "pick": "Sounders ML",
+              "odds": -200,
+              "event": "MLS"
+            }
+          ],
+          "units": 0.5,
+          "confidence": 2,
+          "sgp": false,
+          "reasoning": "Four independent legs, each one a pick we like on its own (see each sport's tab for the full case). Different sports means one bad game script can't sink the whole ticket. Four legs is still a long shot — size it small."
+        },
+        {
+          "title": "Safer Two-Legger",
+          "legs": [
+            {
+              "pick": "Braves +1.5",
+              "odds": -170,
+              "event": "MLB · Phillies @ Braves"
+            },
+            {
+              "pick": "Sounders ML",
+              "odds": -200,
+              "event": "MLS"
+            }
+          ],
+          "units": 0.75,
+          "confidence": 3,
+          "sgp": false,
+          "reasoning": "Two of the highest-probability positions on the board. Atlanta has covered +1.5 in 8 of its last 10 games against Philadelphia, and Sporting KC has no points from its last eight trips to the Pacific Northwest. Pairing two short favorites turns two expensive bets into one plus-money ticket."
+        }
+      ],
+      "props": [
+        {
+          "pick": "Jaylen Warren OVER 67.5 rushing yards",
+          "market": "Player prop",
+          "odds": -115,
+          "units": 1,
+          "confidence": 4,
+          "event": "NFL · Steelers @ Browns",
+          "time": "5:15 PM PT",
+          "reasoning": "With Rico Dowdle still not practicing, Warren is the bell cow. Last week he played 90% of snaps and ran for 127 yards on 17 carries (7.5 per carry) behind a reshuffled offensive line. He ranks 4th in yards after contact (3.1). Cleveland is 23rd in EPA per rush and has missed the second-most tackles in the league (28). Most projections sit above 67. Playable to 70.5.",
+          "sources": [
+            {
+              "title": "Covers prop picks",
+              "url": "https://www.covers.com/nfl/steelers-vs-browns-props-best-bets-week-4-2026"
+            },
+            {
+              "title": "SI prop picks",
+              "url": "https://www.si.com/betting/steelers-vs-browns-best-nfl-prop-bets-for-thursday-night-football-in-week-4-bet-on-jaylen-warren"
+            }
+          ]
+        },
+        {
+          "pick": "Caitlin Clark 3+ made threes",
+          "market": "Player prop",
+          "odds": -180,
+          "units": 0.75,
+          "confidence": 4,
+          "event": "Fever @ Aces · Game 3",
+          "time": "6:00 PM PT",
+          "reasoning": "It comes down to volume: 10.5 three-point attempts per game in the playoffs (7.9 in the regular season), and she's 8-for-21 from deep this series, including 5-for-11 in Game 2. At ~38% shooting on 10 attempts, three makes is the expected outcome. The Aces ranked 12th in opponent 3-point percentage. The price is steep, so don't go past -200.",
+          "sources": [
+            {
+              "title": "SI prop pick",
+              "url": "https://www.si.com/betting/fever-vs-aces-prediction-odds-best-prop-bet-wnba-playoffs-game-3-2026"
+            },
+            {
+              "title": "RawChili (Aces 3PT D)",
+              "url": "https://www.rawchili.com/5112256/"
+            }
+          ]
+        },
+        {
+          "pick": "Leon Draisaitl anytime goal",
+          "market": "Player prop",
+          "odds": 100,
+          "units": 0.75,
+          "confidence": 3,
+          "event": "Oilers @ Canucks",
+          "time": "7:00 PM PT",
+          "reasoning": "He did everything but score Tuesday: 11 shot attempts, 8 scoring chances, 5 shots on goal. His 1.78 goals per 60 minutes ranks second in the league over the last two years. Against the same Vancouver team, that volume should convert. Playable to -110.",
+          "sources": [
+            {
+              "title": "Covers prop picks",
+              "url": "https://www.covers.com/nhl/player-prop-picks-oct-1-2026"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "baseball",
+      "label": "Baseball",
+      "icon": "⚾",
+      "slate": "One game: NL Wild Card Game 3 — Phillies @ Braves, winner-take-all (series tied 1-1). Nola (PHI) vs opener Ray Kerr into Grant Holmes (ATL).",
+      "straight": [
+        {
+          "pick": "Braves +1.5",
+          "market": "Run line",
+          "odds": -170,
+          "units": 1,
+          "confidence": 4,
+          "event": "Phillies @ Braves · NLWC Game 3",
+          "time": "5:00 PM PT",
+          "reasoning": "The moneyline is close to a coin flip, so getting an extra run on the home team has real value. Atlanta won 9 of 13 regular-season meetings and has covered +1.5 in 8 of its last 10 against Philly. The Phillies' weakness is after the starter leaves: their bullpen has blown all 8 save chances since the 2023 NLCS with a 5.94 ERA, and Jhoan Duran gave up the decisive 3-run homer in Game 1. Even in Game 2's loss, Atlanta left 11 runners on base. Playable to -175.",
+          "sources": [
+            {
+              "title": "Covers top pick",
+              "url": "https://www.covers.com/mlb/phillies-vs-braves-prediction-picks-odds-thursday-10-1-2026"
+            },
+            {
+              "title": "MLB.com pitching plans",
+              "url": "https://www.mlb.com/news/phillies-discuss-pitching-plans-for-game-3-of-nl-wild-card-series"
+            }
+          ]
+        },
+        {
+          "pick": "UNDER 7.5 runs",
+          "market": "Game total",
+          "odds": -120,
+          "units": 0.5,
+          "confidence": 2,
+          "event": "Phillies @ Braves · NLWC Game 3",
+          "time": "5:00 PM PT",
+          "reasoning": "In an elimination game, both managers will use their best arms early — the Phillies have Wheeler, Luzardo, Painter and Duran all available behind Nola. The forecast shows a ~6 mph wind blowing in from left field. Kerr has held lefties to .174 (4-for-23), and he opens against Harper and Schwarber. This is a lean, not a hammer: the Phillies bullpen is the main risk to the Under. Half unit.",
+          "sources": [
+            {
+              "title": "MLB.com lineups + Kerr splits",
+              "url": "https://www.mlb.com/news/phillies-vs-braves-nl-wild-card-series-game-3-starting-lineups-and-pitching-matchup"
+            },
+            {
+              "title": "Covers (weather)",
+              "url": "https://www.covers.com/mlb/phillies-vs-braves-prediction-picks-odds-thursday-10-1-2026"
+            }
+          ]
+        }
+      ],
+      "parlay": [
+        {
+          "title": "Braves Hang Around (SGP)",
+          "legs": [
+            {
+              "pick": "Braves +1.5",
+              "odds": -170,
+              "event": "PHI @ ATL"
+            },
+            {
+              "pick": "Matt Olson 2+ Hits+Runs+RBIs",
+              "odds": -150,
+              "event": "PHI @ ATL"
+            },
+            {
+              "pick": "Ronald Acuña Jr. 2+ Hits+Runs+RBIs",
+              "odds": -150,
+              "event": "PHI @ ATL"
+            }
+          ],
+          "units": 0.5,
+          "confidence": 3,
+          "sgp": true,
+          "reasoning": "All three legs need the same game script: Atlanta's best hitters produce and the Braves stay close or win. Olson has power against both lefties and righties, which matters with Philly's mix-and-match staff, and Acuña can clear 2+ with a single and a run scored. Prop odds are estimates; check your book's SGP price."
+        }
+      ],
+      "props": [
+        {
+          "pick": "Bryce Harper 2+ Total Bases",
+          "market": "Player prop",
+          "odds": 100,
+          "units": 0.75,
+          "confidence": 3,
+          "event": "Phillies @ Braves · NLWC Game 3",
+          "time": "5:00 PM PT",
+          "reasoning": "Harper went 2-for-5 with a homer (5 total bases) in Game 2 and has reached 2+ total bases in each of his last four games at Truist Park. His career playoff slugging percentage is close to .600. The lefty opener Kerr only sees him once — the bulk of the night is right-hander Grant Holmes. Playable to -115.",
+          "sources": [
+            {
+              "title": "Covers player prop",
+              "url": "https://www.covers.com/mlb/phillies-vs-braves-prediction-picks-odds-thursday-10-1-2026"
+            }
+          ]
+        },
+        {
+          "pick": "Matt Olson 2+ Hits+Runs+RBIs",
+          "market": "Player prop",
+          "odds": -150,
+          "units": 0.5,
+          "confidence": 3,
+          "event": "Phillies @ Braves · NLWC Game 3",
+          "time": "5:00 PM PT",
+          "reasoning": "Olson bats third behind Baldwin and Acuña, so he gets plenty of RBI chances. His power against both handedness matters because Philadelphia will mix starters and relievers all night. One extra-base hit with a runner on clears this alone.",
+          "sources": [
+            {
+              "title": "MLB.com projected lineup",
+              "url": "https://www.mlb.com/news/phillies-vs-braves-nl-wild-card-series-game-3-starting-lineups-and-pitching-matchup"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "football",
+      "label": "Football",
+      "icon": "🏈",
+      "slate": "NFL: TNF Steelers @ Browns (both 2-1, AFC North lead on the line). College: North Texas @ Tulsa.",
+      "straight": [
+        {
+          "pick": "Steelers vs Browns UNDER 38.5",
+          "market": "Game total",
+          "odds": -118,
+          "units": 1,
+          "confidence": 4,
+          "event": "NFL · Steelers @ Browns",
+          "time": "5:15 PM PT",
+          "reasoning": "This total has been bet down from 40.5 to 38.5. The forecast calls for showers and gusts near 22 mph. Rodgers is on a short week against a Browns secondary that ranks top-12 in dropback EPA and success rate, and Watson hasn't thrown more than 30 times in any game. Two of three Steelers games have gone Under, and the SportsLine model also picks the Under. Playable to 38.",
+          "sources": [
+            {
+              "title": "CBS/SportsLine model",
+              "url": "https://www.cbssports.com/betting/news/browns-steelers-predictions-odds-time-week-4-thursday-night-football-picks-bets/"
+            },
+            {
+              "title": "Fantasy Life",
+              "url": "https://www.fantasylife.com/articles/betting/steelers-vs-browns-picks-odds-predictions-and-player-props"
+            }
+          ]
+        },
+        {
+          "pick": "Browns +2.5",
+          "market": "Spread",
+          "odds": -106,
+          "units": 1,
+          "confidence": 3,
+          "event": "NFL · Steelers @ Browns",
+          "time": "5:15 PM PT",
+          "reasoning": "In a game projected around 38 points, a field goal's worth of points is a big cushion. Betting splits at Circa show most tickets on Pittsburgh but the sharper money on Cleveland. Cleveland is 2-1 ATS as an underdog. Pittsburgh's offense posted the league's worst EPA per play over the first two weeks before a better Week 3. The Steelers have also never won a Thursday night game in Cleveland. Take +3 if you can find it.",
+          "sources": [
+            {
+              "title": "Review-Journal (Circa splits)",
+              "url": "https://www.reviewjournal.com/sports/betting/steelers-vs-browns-week-4-thursday-night-football-odds-picks-player-props-3893638/"
+            },
+            {
+              "title": "SI pick",
+              "url": "https://www.si.com/betting/steelers-vs-browns-prediction-odds-spread-injuries-trends-for-nfl-week-4-2026"
+            }
+          ]
+        },
+        {
+          "pick": "North Texas ML",
+          "market": "Moneyline",
+          "odds": -115,
+          "units": 0.75,
+          "confidence": 3,
+          "event": "NCAAF · North Texas @ Tulsa",
+          "time": "6:00 PM PT",
+          "reasoning": "The line has flipped. Tulsa opened as a 2.5-point favorite, and money has pushed North Texas to a slight favorite at most books. numberFire's model gives the Mean Green a 73.6% win probability, far above what -115 implies (~53%). QB Tayven Jackson has been the surprise of the conference, including a 483-yard game at Texas State. Tulsa has questions at QB with Baylor Hayes' injury status. Playable to -130.",
+          "sources": [
+            {
+              "title": "FanDuel Research / numberFire",
+              "url": "https://www.fanduel.com/research/tulsa-vs-north-texas-college-football-odds-picks-best-bets-for-10-1-2026"
+            },
+            {
+              "title": "TheSpread (Hayes injury)",
+              "url": "https://www.thespread.com/ncaaf-articles/north-texas-vs-tulsa-prediction-october-1-2026/"
+            }
+          ]
+        }
+      ],
+      "parlay": [
+        {
+          "title": "AFC North Rock Fight (SGP)",
+          "legs": [
+            {
+              "pick": "Browns +2.5",
+              "odds": -106,
+              "event": "PIT @ CLE"
+            },
+            {
+              "pick": "UNDER 38.5",
+              "odds": -118,
+              "event": "PIT @ CLE"
+            },
+            {
+              "pick": "Deshaun Watson UNDER 188.5 pass yds",
+              "odds": -113,
+              "event": "PIT @ CLE"
+            }
+          ],
+          "units": 0.5,
+          "confidence": 3,
+          "sgp": true,
+          "reasoning": "One game script ties these together: a low-scoring, run-heavy grind in bad weather where Cleveland keeps it close without Watson throwing much. Correlated legs are why this works as an SGP; expect your book to price it below the multiplied odds."
+        },
+        {
+          "title": "Thursday Double",
+          "legs": [
+            {
+              "pick": "North Texas ML",
+              "odds": -115,
+              "event": "NCAAF"
+            },
+            {
+              "pick": "Steelers/Browns UNDER 38.5",
+              "odds": -118,
+              "event": "NFL"
+            }
+          ],
+          "units": 0.5,
+          "confidence": 3,
+          "sgp": false,
+          "reasoning": "Two independent picks with market movement behind them (UNT flipped to favorite, the NFL total dropped two points). Combined, they pay roughly 2.5-to-1."
+        }
+      ],
+      "props": [
+        {
+          "pick": "Jaylen Warren OVER 67.5 rushing yards",
+          "market": "Player prop",
+          "odds": -115,
+          "units": 1,
+          "confidence": 4,
+          "event": "NFL · Steelers @ Browns",
+          "time": "5:15 PM PT",
+          "reasoning": "With Rico Dowdle still not practicing, Warren is the bell cow. Last week he played 90% of snaps and ran for 127 yards on 17 carries (7.5 per carry) behind a reshuffled offensive line. He ranks 4th in yards after contact (3.1). Cleveland is 23rd in EPA per rush and has missed the second-most tackles in the league (28). Most projections sit above 67. Playable to 70.5.",
+          "sources": [
+            {
+              "title": "Covers prop picks",
+              "url": "https://www.covers.com/nfl/steelers-vs-browns-props-best-bets-week-4-2026"
+            },
+            {
+              "title": "SI prop picks",
+              "url": "https://www.si.com/betting/steelers-vs-browns-best-nfl-prop-bets-for-thursday-night-football-in-week-4-bet-on-jaylen-warren"
+            }
+          ]
+        },
+        {
+          "pick": "Deshaun Watson UNDER 188.5 passing yards",
+          "market": "Player prop",
+          "odds": -113,
+          "units": 0.75,
+          "confidence": 3,
+          "event": "NFL · Steelers @ Browns",
+          "time": "5:15 PM PT",
+          "reasoning": "Watson has been more efficient lately (40 of 60 with 4 TDs over two weeks), but he hasn't attempted more than 30 passes in any game and threw for just 144 yards last week. Cleveland wins by running the ball and leaning on its defense. Wind and rain cap the ceiling further, and he's 18th in EPA per play.",
+          "sources": [
+            {
+              "title": "SI prop picks",
+              "url": "https://www.si.com/betting/steelers-vs-browns-best-nfl-prop-bets-for-thursday-night-football-in-week-4-bet-on-jaylen-warren"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "soccer",
+      "label": "Soccer",
+      "icon": "⚽",
+      "slate": "International break — today's Nations League games (Denmark-Portugal, Greece-Netherlands, etc.) kicked off at 11:45 AM PT and are already in play. The remaining bettable match is MLS: Sporting KC @ Seattle.",
+      "straight": [
+        {
+          "pick": "Seattle Sounders -1 (Asian handicap)",
+          "market": "Goal spread",
+          "odds": 102,
+          "units": 1,
+          "confidence": 4,
+          "event": "MLS · Sporting KC @ Seattle",
+          "time": "6:30 PM PT",
+          "reasoning": "Win by 2+ and it pays; win by 1 and your stake is refunded. Sporting KC is 2-0-8 away from home and has zero points from its last eight trips to Seattle, Portland and Vancouver, getting outscored 24-4. Seattle has back-to-back wins and 9 goals in its last 4. The last meeting at Lumen Field was a 5-2 Seattle win. Playable to -110.",
+          "sources": [
+            {
+              "title": "DailySports preview",
+              "url": "https://dailysports.net/predictions/seattle-sounders-vs-sporting-kansas-city-prediction-can-sporting-pull-off-a-surprise-in-seattle/"
+            },
+            {
+              "title": "SportsGambler stats",
+              "url": "https://www.sportsgambler.com/betting-tips/football/seattle-sounders-vs-sporting-kansas-city-prediction-lineups-odds-2026-10-01/"
+            }
+          ]
+        },
+        {
+          "pick": "Seattle to win & Both Teams to Score",
+          "market": "Result + BTTS",
+          "odds": 150,
+          "units": 0.5,
+          "confidence": 3,
+          "event": "MLS · Sporting KC @ Seattle",
+          "time": "6:30 PM PT",
+          "reasoning": "Sporting KC can't defend but does score — they've been shut out only once in their last seven games, and they lost 4-3 to Philadelphia after leading 3-0. Books price BTTS 'Yes' around -220 on its own. Combining it with a Seattle win gets you to plus money.",
+          "sources": [
+            {
+              "title": "bet365 preview",
+              "url": "https://news.bet365.com/en-gb/article/football-seattle-sounders-sporting-kansas-city-prediction-and-tips/2026093013111865195"
+            }
+          ]
+        }
+      ],
+      "parlay": [
+        {
+          "title": "Sounders Romp (SGP)",
+          "legs": [
+            {
+              "pick": "Seattle ML",
+              "odds": -200,
+              "event": "SKC @ SEA"
+            },
+            {
+              "pick": "OVER 2.5 goals",
+              "odds": -150,
+              "event": "SKC @ SEA"
+            }
+          ],
+          "units": 0.75,
+          "confidence": 3,
+          "sgp": true,
+          "reasoning": "Dimers' model has Over 2.5 hitting about 68% of the time and Seattle winning 65%. Those two outcomes go together: Seattle scoring freely is how the game gets to 3+. Over price is an estimate; check your book."
+        }
+      ],
+      "props": [
+        {
+          "pick": "Jordan Morris anytime goalscorer",
+          "market": "Player prop",
+          "odds": 110,
+          "units": 0.5,
+          "confidence": 2,
+          "event": "MLS · Sporting KC @ Seattle",
+          "time": "6:30 PM PT",
+          "reasoning": "Seattle's most direct finisher faces a defense that has conceded 3.0 goals per game on the road. bet365's analysts list him at 11/10. Only bet this once lineups (about an hour before kickoff) confirm he's starting — if he's on the bench, skip it.",
+          "sources": [
+            {
+              "title": "bet365 preview",
+              "url": "https://news.bet365.com/en-gb/article/football-seattle-sounders-sporting-kansas-city-prediction-and-tips/2026093013111865195"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hockey",
+      "label": "Hockey",
+      "icon": "🏒",
+      "slate": "Eight-game NHL card in the first week of the 2026-27 regular season. Headliner: Oilers @ Canucks, a rematch of Tuesday's 6-5 OT loss for Edmonton.",
+      "straight": [
+        {
+          "pick": "Lightning ML",
+          "market": "Moneyline",
+          "odds": -142,
+          "units": 1,
+          "confidence": 3,
+          "event": "Rangers @ Lightning",
+          "time": "Tonight",
+          "reasoning": "The Rangers' top six is thin (Perreault, Lafrenière, Bjorkstrand, Dorofeyev), and they were shut out in their opener. Tampa is a veteran, well-coached team with Andrei Vasilevskiy in net. FanDuel Research and Covers both have Tampa here, with Covers also on the Rangers' team total Under 2.5. Playable to -155.",
+          "sources": [
+            {
+              "title": "FanDuel Research picks",
+              "url": "https://www.fanduel.com/research/nhl-picks-today-nhl-best-bets-predictions-and-props-for-thursday-october-1"
+            },
+            {
+              "title": "Covers best bets",
+              "url": "https://www.covers.com/nhl/best-bets-10-1-2026"
+            }
+          ]
+        },
+        {
+          "pick": "Oilers -1.5 (puck line)",
+          "market": "Puck line",
+          "odds": 114,
+          "units": 0.75,
+          "confidence": 3,
+          "event": "Oilers @ Canucks",
+          "time": "7:00 PM PT",
+          "reasoning": "Edmonton lost Tuesday because of goaltending, not effort: at 5-on-5 they had a 62.4% Corsi share and 72.9% of expected goals, and outshot Vancouver 37-23. Devon Levi is expected to start and posted a .946 save percentage in the preseason. Vancouver was 25-49-8 last year. The moneyline (-205) is expensive; -1.5 at plus money is the better price. Playable to +105.",
+          "sources": [
+            {
+              "title": "Covers top pick",
+              "url": "https://www.covers.com/nhl/oilers-vs-canucks-prediction-picks-oct-1-2026"
+            },
+            {
+              "title": "FanDuel odds",
+              "url": "https://www.fanduel.com/research/oilers-vs-canucks-prediction-nhl-odds-10-1-2026"
+            }
+          ]
+        }
+      ],
+      "parlay": [
+        {
+          "title": "Favorites Bounce Back",
+          "legs": [
+            {
+              "pick": "Lightning ML",
+              "odds": -142,
+              "event": "NYR @ TB"
+            },
+            {
+              "pick": "Oilers ML",
+              "odds": -205,
+              "event": "EDM @ VAN"
+            }
+          ],
+          "units": 0.75,
+          "confidence": 3,
+          "sgp": false,
+          "reasoning": "Two expensive favorites combined into one plus-money ticket. Each has a clear talent or matchup edge (above). Using the Oilers ML instead of -1.5 keeps the ticket alive if Edmonton wins by one."
+        },
+        {
+          "title": "Leon Leads the Way (SGP)",
+          "legs": [
+            {
+              "pick": "Oilers ML",
+              "odds": -205,
+              "event": "EDM @ VAN"
+            },
+            {
+              "pick": "Leon Draisaitl anytime goal",
+              "odds": 100,
+              "event": "EDM @ VAN"
+            }
+          ],
+          "units": 0.5,
+          "confidence": 2,
+          "sgp": true,
+          "reasoning": "When Draisaitl scores, Edmonton usually wins — these are correlated. He scored in 72% of games last season when Edmonton was a -150 or bigger favorite against a bottom-12 defense."
+        }
+      ],
+      "props": [
+        {
+          "pick": "Leon Draisaitl anytime goal",
+          "market": "Player prop",
+          "odds": 100,
+          "units": 0.75,
+          "confidence": 3,
+          "event": "Oilers @ Canucks",
+          "time": "7:00 PM PT",
+          "reasoning": "He did everything but score Tuesday: 11 shot attempts, 8 scoring chances, 5 shots on goal. His 1.78 goals per 60 minutes ranks second in the league over the last two years. Against the same Vancouver team, that volume should convert. Playable to -110.",
+          "sources": [
+            {
+              "title": "Covers prop picks",
+              "url": "https://www.covers.com/nhl/player-prop-picks-oct-1-2026"
+            }
+          ]
+        },
+        {
+          "pick": "Connor McDavid anytime goal",
+          "market": "Player prop",
+          "odds": 105,
+          "units": 0.5,
+          "confidence": 2,
+          "event": "Oilers @ Canucks",
+          "time": "7:00 PM PT",
+          "reasoning": "McDavid led the NHL with 138 points last season (48 goals) and had 2 assists Tuesday. Plus money on him to score against a weak defense is the clearest value on the anytime board. Half unit because McDavid tends to set up goals more than score them.",
+          "sources": [
+            {
+              "title": "SportsBettingDime props",
+              "url": "https://www.sportsbettingdime.com/news/nhl/nhl-player-props-anytime-goalscorer-picks-oct-1-2026/"
+            },
+            {
+              "title": "FanDuel Research",
+              "url": "https://www.fanduel.com/research/nhl-picks-today-nhl-best-bets-predictions-and-props-for-thursday-october-1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "golf",
+      "label": "Golf",
+      "icon": "⛳",
+      "slate": "PGA Tour: Bank of Utah Championship at Black Desert (par 71; the last two winners finished at -22 and -23). Round 1 is IN PROGRESS — these are full-tournament bets, so the prices you see now are live. Check the leaderboard before betting.",
+      "straight": [
+        {
+          "pick": "Ben James Top 10",
+          "market": "Finishing position",
+          "odds": 225,
+          "units": 0.5,
+          "confidence": 3,
+          "event": "Bank of Utah Championship",
+          "time": "Thu–Sun",
+          "reasoning": "James has two straight top-3 finishes and three top-5s in his last five starts. He's the second favorite in a weak fall field, so a Top 10 is a realistic ask. +225 was the pre-tournament price; it will move with his Round 1 score.",
+          "sources": [
+            {
+              "title": "PGA Tour expert picks",
+              "url": "https://www.pgatour.com/article/news/expert-picks/2026/09/29/best-bets-bank-of-utah-championship-betting-odds-black-desert-resort-"
+            }
+          ]
+        },
+        {
+          "pick": "Michael Brennan Top 20",
+          "market": "Finishing position",
+          "odds": 110,
+          "units": 0.5,
+          "confidence": 3,
+          "event": "Bank of Utah Championship",
+          "time": "Thu–Sun",
+          "reasoning": "Brennan is the defending champion (he won here by 4 last year) and arrives in form after winning the Wyndham and finishing 10th at the BMW. Course fit plus current form makes Top 20 the safer way to back him. Price is an estimate; check live.",
+          "sources": [
+            {
+              "title": "Sportsbook Wire preview",
+              "url": "https://www.centraloregondaily.com/sports/2026-bank-of-utah-championship-odds-picks-and-pga-tour-predictions/article_70ab9fc2-9969-57ba-a1ee-bb1f8588b197.html"
+            }
+          ]
+        }
+      ],
+      "parlay": [
+        {
+          "title": "Top-20 Trio",
+          "legs": [
+            {
+              "pick": "Ben James Top 20",
+              "odds": -150,
+              "event": "Bank of Utah"
+            },
+            {
+              "pick": "Michael Brennan Top 20",
+              "odds": 110,
+              "event": "Bank of Utah"
+            },
+            {
+              "pick": "Johnny Keefer Top 20",
+              "odds": -120,
+              "event": "Bank of Utah"
+            }
+          ],
+          "units": 0.25,
+          "confidence": 2,
+          "sgp": false,
+          "reasoning": "Three in-form players to finish top 20 in a 120-man field. Golf parlays are volatile, so this is a quarter unit. Prices are estimates and move every hole while Round 1 is live."
+        }
+      ],
+      "props": [
+        {
+          "pick": "Johnny Keefer Top 20",
+          "market": "Player finish prop",
+          "odds": -120,
+          "units": 0.5,
+          "confidence": 3,
+          "event": "Bank of Utah Championship",
+          "time": "Thu–Sun",
+          "reasoning": "Keefer was a popular pre-tournament outright and first-round-leader pick (he ranks 3rd in SG/Round 1 scoring over his last 30 rounds), and he's backing it up: he was -4 through 14 holes near the top of the board this afternoon. His live outright price has already shortened; a Top 20 bet keeps the cost reasonable.",
+          "sources": [
+            {
+              "title": "Golf Digest picks",
+              "url": "https://golfdigest.com/story/bank-of-utah-championship-picks-2026"
+            },
+            {
+              "title": "Live leaderboard",
+              "url": "https://www.foxsports.com/golf/bank-of-utah-championship-pga-tour-oct-01-2026-leaderboard-4936"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "basketball",
+      "label": "Basketball",
+      "icon": "🏀",
+      "slate": "WNBA Playoffs, first round Game 3 (winner-take-all): Fever @ Aces. NBA preseason hasn't started yet, so this is the only basketball tonight.",
+      "straight": [
+        {
+          "pick": "Fever vs Aces OVER 180.5",
+          "market": "Game total",
+          "odds": -112,
+          "units": 1,
+          "confidence": 3,
+          "event": "Fever @ Aces · Game 3",
+          "time": "6:00 PM PT",
+          "reasoning": "These were the two best offenses in the league this season (#1 and #2 in points per game, about 187.5 combined), and Indiana plays at the fastest pace. Game 1 had Vegas at 102 alone, and Game 2 ended 99-89 (188 total). Playable to 182.5.",
+          "sources": [
+            {
+              "title": "Yahoo pick",
+              "url": "https://sports.yahoo.com/articles/fever-vs-aces-prediction-pick-122815671.html"
+            },
+            {
+              "title": "SI preview",
+              "url": "https://www.si.com/betting/fever-vs-aces-prediction-odds-best-prop-bet-wnba-playoffs-game-3-2026"
+            }
+          ]
+        },
+        {
+          "pick": "Fever +4.5",
+          "market": "Spread",
+          "odds": -108,
+          "units": 0.75,
+          "confidence": 2,
+          "event": "Fever @ Aces · Game 3",
+          "time": "6:00 PM PT",
+          "reasoning": "71% of spread tickets are on Vegas, so the line is shaded toward the Aces. Dimers' 10,000-game simulation projects a 3-point Aces win (92-89), inside this number. Clark just put up 27 points, 7 rebounds and 15 assists, and Indiana has already won by double digits in Las Vegas this year. Home teams won and covered Games 1 and 2, which is the main risk. Playable to +4.",
+          "sources": [
+            {
+              "title": "TheSpread (betting split)",
+              "url": "https://www.thespread.com/wnba/fever-vs-aces-prediction-october-1-2026/"
+            },
+            {
+              "title": "Dimers simulation",
+              "url": "https://www.dimers.com/wnba/predictions/2026_147_lv_ind"
+            }
+          ]
+        }
+      ],
+      "parlay": [
+        {
+          "title": "Shootout in Vegas (SGP)",
+          "legs": [
+            {
+              "pick": "OVER 180.5",
+              "odds": -112,
+              "event": "IND @ LV"
+            },
+            {
+              "pick": "Caitlin Clark 3+ made threes",
+              "odds": -180,
+              "event": "IND @ LV"
+            }
+          ],
+          "units": 0.5,
+          "confidence": 3,
+          "sgp": true,
+          "reasoning": "Correlated legs: a high-volume Clark shooting night is how this game gets past 180. She's taking 10.5 threes per game in the playoffs against a Vegas defense that ranked 12th in opponent 3-point percentage."
+        }
+      ],
+      "props": [
+        {
+          "pick": "Caitlin Clark 3+ made threes",
+          "market": "Player prop",
+          "odds": -180,
+          "units": 0.75,
+          "confidence": 4,
+          "event": "Fever @ Aces · Game 3",
+          "time": "6:00 PM PT",
+          "reasoning": "It comes down to volume: 10.5 three-point attempts per game in the playoffs (7.9 in the regular season), and she's 8-for-21 from deep this series, including 5-for-11 in Game 2. At ~38% shooting on 10 attempts, three makes is the expected outcome. The Aces ranked 12th in opponent 3-point percentage. The price is steep, so don't go past -200.",
+          "sources": [
+            {
+              "title": "SI prop pick",
+              "url": "https://www.si.com/betting/fever-vs-aces-prediction-odds-best-prop-bet-wnba-playoffs-game-3-2026"
+            },
+            {
+              "title": "RawChili (Aces 3PT D)",
+              "url": "https://www.rawchili.com/5112256/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
