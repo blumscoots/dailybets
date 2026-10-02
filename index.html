@@ -57,6 +57,9 @@ nav.subs .n{font-size:11px;background:var(--chip);border-radius:20px;padding:1px
 .notes{margin-top:28px;color:var(--muted);font-size:13px}
 .notes li{margin:4px 0}
 .empty{color:var(--muted);padding:24px;text-align:center;border:1px dashed var(--line);border-radius:12px;margin-top:14px}
+.record{display:flex;flex-wrap:wrap;align-items:center;gap:8px 16px;background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin-bottom:14px;font-size:13px;color:var(--muted)}
+.record b{font:700 20px "Barlow Condensed",sans-serif;color:var(--text);letter-spacing:.3px}
+.record .pos{color:var(--accent)} .record .neg{color:var(--neg)}
 footer{margin-top:28px;color:var(--muted);font-size:12px;border-top:1px solid var(--line);padding-top:14px}
 @media (max-width:560px){h1{font-size:32px}.meta{text-align:left}.pick,.odds{font-size:19px}}
 </style>
@@ -71,6 +74,7 @@ footer{margin-top:28px;color:var(--muted);font-size:12px;border-top:1px solid va
       <button class="theme-btn" id="theme">Light / Dark</button></div>
   </header>
   <p class="headline" id="headline"></p>
+  <div class="record" id="record" hidden></div>
   <nav class="sports" id="sports"></nav>
   <div class="slate" id="slate"></div>
   <nav class="subs" id="subs"></nav>
@@ -126,6 +130,10 @@ function boot(d){
   document.getElementById("date").textContent=dt.toLocaleDateString(undefined,{weekday:"long",month:"long",day:"numeric",year:"numeric"});
   if(d.updated)document.getElementById("updated").textContent="Updated "+new Date(d.updated).toLocaleTimeString([], {hour:"numeric",minute:"2-digit"});
   document.getElementById("headline").textContent=d.headline||"";
+  if(d.record){const r=d.record,el=document.getElementById("record");el.hidden=false;
+    el.innerHTML=`<span>${esc(r.label)}</span><b>${r.wins}-${r.losses}${r.pushes?"-"+r.pushes:""}</b>`+
+      `<b class="${r.units>=0?"pos":"neg"}">${r.units>=0?"+":""}${r.units.toFixed(2)}u</b>`+
+      (r.pending?`<span>${r.pending} pending</span>`:"")+(r.note?`<span>${esc(r.note)}</span>`:"")}
   document.getElementById("notes").innerHTML=(d.notes||[]).map(n=>`<li>${esc(n)}</li>`).join("");
   document.getElementById("sports").innerHTML=d.sections.map(s=>`<button data-id="${s.id}">${s.icon||""} ${esc(s.label)}</button>`).join("");
   document.querySelectorAll("#sports button").forEach(b=>b.onclick=()=>{cur.sport=b.dataset.id;cur.sub="straight";render()});
