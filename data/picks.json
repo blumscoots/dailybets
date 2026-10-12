@@ -1,132 +1,101 @@
 {
-  "date": "2026-10-06",
-  "updated": "2026-10-06T10:00:00-07:00",
-  "headline": "Tuesday slate: two NLDS elimination-pressure games (Dodgers @ Braves tied 1-1, Brewers @ Padres 2-0 MIL), Nations League (Croatia-Spain, England-Czechia), USMNT vs Canada, a 9-game NHL card, Southern Miss @ Troy, and a Baycurrent Classic preview. No WNBA today; Game 2s are Wednesday.",
-  "record": {
-    "label": "Last board (Fri 10/2)",
-    "wins": 9, "losses": 15, "pushes": 0, "pending": 0,
-    "units": -2.58,
-    "note": "Thursday's golf all hit (4-0, +3.45u). Running total: 27-26-1, +4.37u. Game totals are 0-7 across both boards, so today's board has none."
-  },
+  "date": "2026-10-12",
+  "updated": "2026-10-12T16:10:00-07:00",
+  "headline": "Monday night: Bills @ Rams on MNF, ALCS Game 1 (Guardians @ Rays), and Wild-Golden Knights. NLCS Game 2 and Senators-Devils have already started, and there's no WNBA, golf or soccer tonight.",
   "notes": [
-    "No bet is a lock. 'Confidence' runs 1–5, and only one pick today is a 4.",
-    "No game totals today. They went 0-7 over the last two boards — a small sample, but they were also the picks with the thinnest research behind them.",
-    "Croatia-Spain and England-Czechia kick off at 11:45 AM PT. Bet those first or skip them.",
-    "Odds move. Skip any pick whose price is past the 'playable to' number in its reasoning. SGPs pay less than the multiplied odds shown."
+    "Everything here starts around 5:00 PM PT. Bet before first pitch / puck drop / kickoff.",
+    "No game totals again. They went 0-7 on the first two boards.",
+    "No bet is a lock. 'Confidence' runs 1–5, and nothing tonight is above a 3.",
+    "Odds move. Skip any pick whose price is past the 'playable to' number in its reasoning. Prices marked 'estimate' come from prediction-market percentages; check your book."
   ],
   "sections": [
     {
       "id": "best",
       "label": "Best of the Day",
       "icon": "★",
-      "slate": "The strongest edges on today's card. Friday's Best of the Day went 3-5 (-2.09u); the Bruins and both props hit, and the totals and parlays didn't.",
+      "slate": "A short card: three bettable games tonight. These are the picks with the most support.",
       "straight": [
         {
-          "pick": "San Diego Padres ML",
-          "market": "Moneyline",
-          "odds": -136,
-          "units": 1,
-          "confidence": 4,
-          "event": "MLB · NLDS Game 3 · Brewers @ Padres",
-          "time": "6:30 PM PT",
-          "reasoning": "The biggest starting-pitcher gap on the board. Nick Pivetta posted a 1.45 ERA over four September starts after returning from injury, and San Diego won all four. Milwaukee's Dustin May has a 5.65 ERA in 10 starts since joining the Brewers. San Diego was 51-30 at Petco Park and swept Milwaukee there in August. Covers, SI and FanDuel Research all land on the Padres. Playable to -150.",
-          "sources": [
-            {"title": "Covers Game 3 preview", "url": "https://www.covers.com/mlb/brewers-vs-padres-prediction-picks-odds-tuesday-10-6-2026"},
-            {"title": "SI odds + prop", "url": "https://www.si.com/betting/brewers-vs-padres-prediction-odds-probable-pitchers-prop-bets-for-nlds-game-3-01m470da2dzb"},
-            {"title": "FanDuel Research", "url": "https://www.fanduel.com/research/mlb-playoff-predictions-today-mlb-best-bets-and-picks-for-october-6-2026"}
-          ]
-        },
-        {
-          "pick": "Southern Miss +10.5",
+          "pick": "Rams -3.5",
           "market": "Spread",
-          "odds": -115,
+          "odds": -110,
           "units": 1,
           "confidence": 3,
-          "event": "NCAAF · Southern Miss @ Troy",
-          "time": "5:00 PM PT",
-          "reasoning": "Troy can't score enough to cover double digits. The Trojans average 21.3 points (130th nationally) and 3.9 yards per carry against FBS teams, and QB Goose Crowder is completing 52% of his passes. Troy is 0-2 against the spread as a 10.5+ point favorite. Southern Miss just lost 24-21 to Tulane. Take +11 if you can find it.",
+          "event": "NFL · Bills @ Rams",
+          "time": "5:15 PM PT",
+          "reasoning": "The line moved from Rams -3 to -3.5 even though about 79% of spread tickets are on Buffalo, which points to sharper money on LA. Buffalo is banged up: top pass rusher Ed Oliver and WR Josh Palmer are out, CB Christian Benford missed last week, and D.J. Moore is questionable. The Rams' run game ranks 8th in success rate and 2nd in adjusted line yards, and Buffalo is 31st at stopping handoffs. That lets LA control the clock and limit Josh Allen's possessions. The Rams also allow just 4.2 yards per play, 2nd in the NFL. Don't pay -4.",
           "sources": [
-            {"title": "VSiN pick", "url": "https://vsin.com/college-football/college-football-week-6-picks-southern-miss-vs-troy/"},
-            {"title": "FanDuel Research odds/trends", "url": "https://www.fanduel.com/research/troy-vs-southern-miss-college-football-odds-picks-best-bets-for-10-6-2026"}
+            {"title": "TheSpread preview + splits", "url": "https://www.thespread.com/nfl-articles/bills-vs-rams-prediction-october-12-2026/"},
+            {"title": "Covers moneyline pick", "url": "https://www.covers.com/nfl/bills-vs-rams-moneyline-pick-odds-week-5-oct-12-2026"}
           ]
         },
         {
-          "pick": "Spain -1.5",
-          "market": "Goal spread",
-          "odds": -133,
-          "units": 0.75,
+          "pick": "Tampa Bay Rays ML",
+          "market": "Moneyline",
+          "odds": -150,
+          "units": 1,
           "confidence": 3,
-          "event": "Nations League · Croatia vs Spain",
-          "time": "11:45 AM PT",
-          "reasoning": "Croatia just lost 7-0 at home to England, is conceding 4.0 goals per game, and is missing defenders Martin Erlić and Josip Juranović. Spain is 3-0, averaging 3.33 goals and 7.33 shots on target per game. Spain is missing Nico Williams, Ferran Torres, Grimaldo and Eric García, which is why this is 0.75u. A 2+ goal Spain win pays.",
+          "event": "MLB · ALCS Game 1 · Guardians @ Rays",
+          "time": "5:00 PM PT",
+          "reasoning": "Drew Rasmussen gave up one hit over eight innings with 10 strikeouts against the Yankees in the ALDS, and he struck out 15 Guardians in 12 innings this season. Cleveland counters with Foster Griffin (3.38 ERA) and a bullpen taxed by its ALDS. Tampa Bay had five days of rest. The market has the Rays around 60%. Playable to -160 (price is an estimate).",
           "sources": [
-            {"title": "SportsBettingDime preview", "url": "https://www.sportsbettingdime.com/news/soccer/croatia-vs-spain-expert-picks-odds-nations-league-2026/"}
+            {"title": "Covers ALCS Game 1", "url": "https://www.covers.com/mlb/guardians-vs-rays-prediction-picks-odds-monday-10-12-2026"},
+            {"title": "Athlon LCS bets", "url": "https://athlonsports.com/betting/best-mlb-lcs-playoff-prop-bets-odds-monday-oct12-2026"}
           ]
         }
       ],
       "parlay": [
         {
-          "title": "Tuesday Three-Sport",
+          "title": "Monday Night Favorites",
           "legs": [
-            {"pick": "Padres ML", "odds": -136, "event": "MLB"},
-            {"pick": "Blues ML", "odds": -142, "event": "NHL · STL @ CHI"},
-            {"pick": "Southern Miss +10.5", "odds": -115, "event": "NCAAF"}
+            {"pick": "Rams ML", "odds": -185, "event": "NFL · BUF @ LAR"},
+            {"pick": "Rays ML", "odds": -150, "event": "MLB · CLE @ TB"}
           ],
           "units": 0.5,
-          "confidence": 2,
-          "sgp": false,
-          "reasoning": "Three independent picks, each with its own case (see each sport's tab). Pays about 4.5-to-1. Three legs still means a long shot, so it's half a unit."
-        },
-        {
-          "title": "Safer Two-Legger",
-          "legs": [
-            {"pick": "Padres ML", "odds": -136, "event": "MLB"},
-            {"pick": "England ML", "odds": -769, "event": "Nations League"}
-          ],
-          "units": 0.75,
           "confidence": 3,
           "sgp": false,
-          "reasoning": "England at home against a winless Czechia team is a heavy favorite: 16.3 shots per game against Czechia's 4.0. Adding them to the Padres adds little risk and moves the price close to even money."
+          "reasoning": "Two home favorites with clear matchup edges, combined into a plus-money ticket. Using the Rams moneyline instead of -3.5 means a Rams win by 1-3 still pays."
         }
       ],
       "props": [
         {
-          "pick": "Nick Pivetta OVER 3.5 strikeouts",
+          "pick": "Drew Rasmussen OVER 5.5 strikeouts",
           "market": "Player prop",
-          "odds": -160,
+          "odds": -128,
           "units": 0.75,
           "confidence": 3,
-          "event": "MLB · Brewers @ Padres",
-          "time": "6:30 PM PT",
-          "reasoning": "Pivetta had 4+ strikeouts in seven of eight starts this season and struck out four Cubs in just 3.1 innings in the Wild Card Series. Four strikeouts is the bar, even if San Diego pulls him early. Playable to -175.",
+          "event": "ALCS Game 1 · Guardians @ Rays",
+          "time": "5:00 PM PT",
+          "reasoning": "He has 10+ strikeouts in each of his last two starts and struck out 15 Guardians in 12 innings this season. Six strikeouts is a modest bar for that form. Playable to -145.",
           "sources": [
-            {"title": "SI prop", "url": "https://www.si.com/betting/brewers-vs-padres-prediction-odds-probable-pitchers-prop-bets-for-nlds-game-3-01m470da2dzb"}
+            {"title": "Athlon LCS props", "url": "https://athlonsports.com/betting/best-mlb-lcs-playoff-prop-bets-odds-monday-oct12-2026"}
           ]
         },
         {
-          "pick": "Lamine Yamal anytime goal",
+          "pick": "Khalil Shakir 40+ receiving yards",
           "market": "Player prop",
-          "odds": 110,
-          "units": 0.5,
+          "odds": -130,
+          "units": 0.75,
           "confidence": 3,
-          "event": "Nations League · Croatia vs Spain",
-          "time": "11:45 AM PT",
-          "reasoning": "Yamal has four goals and five shots on target in three Nations League games. With Nico Williams out, more of Spain's attack runs through him, against a Croatia defense that just conceded seven. Confirm he starts.",
+          "event": "NFL · Bills @ Rams",
+          "time": "5:15 PM PT",
+          "reasoning": "Palmer is out and Moore is questionable, so Shakir should see extra targets. The Rams have allowed the 3rd-most yards to slot receivers and play zone at the 8th-highest rate, which is the coverage Shakir has beaten most over the last three seasons. Covers projects 51.5 yards. Price is an estimate from a 57% market probability.",
           "sources": [
-            {"title": "SportsBettingDime preview", "url": "https://www.sportsbettingdime.com/news/soccer/croatia-vs-spain-expert-picks-odds-nations-league-2026/"}
+            {"title": "Covers MNF props", "url": "https://www.covers.com/nfl/bills-vs-rams-props-best-bets-week-5-2026"}
           ]
         },
         {
-          "pick": "Jack Quinn OVER 2.5 shots on goal",
+          "pick": "Jack Eichel OVER 2.5 shots on goal",
           "market": "Player prop",
-          "odds": -110,
+          "odds": -155,
           "units": 0.5,
           "confidence": 3,
-          "event": "NHL · Wild @ Sabres",
-          "time": "4:00 PM PT",
-          "reasoning": "Quinn has 21 shot attempts in Buffalo's first two games and has played 19+ minutes in both, now in a top-six role. Last season he ranked 42nd among all forwards in shots on goal per 60 minutes. Price is an estimate.",
+          "event": "NHL · Golden Knights @ Wild",
+          "time": "5:00 PM PT",
+          "reasoning": "Vegas averages 33 shots a game and Eichel leads the team with 12 points. Dimers' model puts him at 66.5% to get 3+ shots, about 6 points above what -155 implies. Playable to -165.",
           "sources": [
-            {"title": "Covers NHL best bets", "url": "https://www.covers.com/nhl/best-bets-oct-6-2026"}
+            {"title": "Dimers NHL props", "url": "https://www.dimers.com/nhl/news/nhl-player-props-10-12-2026-ac"},
+            {"title": "TheSpread (Vegas shot volume)", "url": "https://www.thespread.com/nhl-articles/golden-knights-vs-wild-prediction-october-12-2026/"}
           ]
         }
       ]
@@ -135,88 +104,60 @@
       "id": "baseball",
       "label": "Baseball",
       "icon": "⚾",
-      "slate": "NLDS Game 3s: Dodgers @ Braves (tied 1-1; Yamamoto vs Sale) and Brewers @ Padres (MIL leads 2-0; May vs Pivetta). The ALDS is off today.",
+      "slate": "ALCS Game 1: Guardians @ Rays (Griffin vs Rasmussen), 5:00 PM PT. NLCS Game 2 (Dodgers @ Brewers, MIL leads 1-0) started at 2 PM PT, so it isn't on the board.",
       "straight": [
         {
-          "pick": "San Diego Padres ML",
+          "pick": "Tampa Bay Rays ML",
           "market": "Moneyline",
-          "odds": -136,
+          "odds": -150,
           "units": 1,
-          "confidence": 4,
-          "event": "NLDS Game 3 · Brewers @ Padres",
-          "time": "6:30 PM PT",
-          "reasoning": "Pivetta had a 1.45 ERA over four September starts and San Diego won all four. May has a 5.65 ERA in 10 starts with Milwaukee. The Padres were 51-30 at home and swept the Brewers at Petco in August. Covers, SI and FanDuel Research all agree. Playable to -150.",
-          "sources": [
-            {"title": "Covers preview", "url": "https://www.covers.com/mlb/brewers-vs-padres-prediction-picks-odds-tuesday-10-6-2026"},
-            {"title": "SI preview", "url": "https://www.si.com/betting/brewers-vs-padres-prediction-odds-probable-pitchers-prop-bets-for-nlds-game-3-01m470da2dzb"}
-          ]
-        },
-        {
-          "pick": "Atlanta Braves ML",
-          "market": "Moneyline",
-          "odds": -109,
-          "units": 0.75,
           "confidence": 3,
-          "event": "NLDS Game 3 · Dodgers @ Braves",
-          "time": "3:00 PM PT",
-          "reasoning": "Chris Sale (2.16 ERA, 30.9% strikeout rate) has held the Dodgers' current hitters to a .200 average over 153 career plate appearances, and he threw a 9-inning, 11-strikeout shutout of them in August. About 73% of tickets are on LA, yet the line hasn't moved toward the Dodgers — a sign of sharper money on Atlanta. SI likes the Dodgers' lineup depth, so this is 0.75u, not a full unit. Playable to -120.",
+          "event": "ALCS Game 1 · Guardians @ Rays",
+          "time": "5:00 PM PT",
+          "reasoning": "Rasmussen has a 0.00 postseason ERA (8 IP, 1 hit, 10 K vs NYY) and dominated Cleveland in the regular season. The Rays had five days of rest, while Cleveland's bullpen was taxed in its ALDS. Playable to -160 (price is an estimate).",
           "sources": [
-            {"title": "TheSpread (betting splits)", "url": "https://www.thespread.com/mlb-articles/dodgers-vs-braves-prediction-october-6-2026/"},
-            {"title": "FanDuel Research", "url": "https://www.fanduel.com/research/mlb-playoff-predictions-today-mlb-best-bets-and-picks-for-october-6-2026"},
-            {"title": "SI (Dodgers side)", "url": "https://www.si.com/betting/dodgers-vs-braves-prediction-odds-probable-pitchers-prop-bets-for-nlds-game-3-01m46y38f78j"}
+            {"title": "Covers ALCS Game 1", "url": "https://www.covers.com/mlb/guardians-vs-rays-prediction-picks-odds-monday-10-12-2026"}
           ]
         }
       ],
       "parlay": [
         {
-          "title": "NL Home Teams",
+          "title": "Rasmussen Dominates (SGP)",
           "legs": [
-            {"pick": "Braves ML", "odds": -109, "event": "LAD @ ATL"},
-            {"pick": "Padres ML", "odds": -136, "event": "MIL @ SD"}
-          ],
-          "units": 0.5,
-          "confidence": 2,
-          "sgp": false,
-          "reasoning": "Both home teams have the better starting pitcher in the matchup. Pays about 2.6-to-1."
-        },
-        {
-          "title": "Pivetta Sets the Tone (SGP)",
-          "legs": [
-            {"pick": "Padres ML", "odds": -136, "event": "MIL @ SD"},
-            {"pick": "Nick Pivetta OVER 3.5 strikeouts", "odds": -160, "event": "MIL @ SD"}
+            {"pick": "Rays ML", "odds": -150, "event": "CLE @ TB"},
+            {"pick": "Drew Rasmussen OVER 5.5 strikeouts", "odds": -128, "event": "CLE @ TB"}
           ],
           "units": 0.5,
           "confidence": 3,
           "sgp": true,
-          "reasoning": "If Pivetta is missing bats, San Diego is probably winning — these two go together. That correlation means the book will price the SGP lower than the multiplied odds."
+          "reasoning": "If Rasmussen is piling up strikeouts, Tampa Bay is probably winning — the two go together. Books price that correlation in, so expect less than the multiplied odds."
         }
       ],
       "props": [
         {
-          "pick": "Nick Pivetta OVER 3.5 strikeouts",
+          "pick": "Drew Rasmussen OVER 5.5 strikeouts",
           "market": "Player prop",
-          "odds": -160,
+          "odds": -128,
           "units": 0.75,
           "confidence": 3,
-          "event": "Brewers @ Padres",
-          "time": "6:30 PM PT",
-          "reasoning": "Pivetta had 4+ strikeouts in seven of eight starts this season, plus four in 3.1 innings in the Wild Card Series. Playable to -175.",
+          "event": "Guardians @ Rays",
+          "time": "5:00 PM PT",
+          "reasoning": "10+ strikeouts in each of his last two starts, and 15 strikeouts in 12 innings against Cleveland this season. Playable to -145.",
           "sources": [
-            {"title": "SI prop", "url": "https://www.si.com/betting/brewers-vs-padres-prediction-odds-probable-pitchers-prop-bets-for-nlds-game-3-01m470da2dzb"}
+            {"title": "Athlon LCS props", "url": "https://athlonsports.com/betting/best-mlb-lcs-playoff-prop-bets-odds-monday-oct12-2026"}
           ]
         },
         {
-          "pick": "Chris Sale OVER 7.5 strikeouts",
+          "pick": "Jonathan Aranda OVER 1.5 hits+runs+RBIs",
           "market": "Player prop",
-          "odds": 115,
+          "odds": -120,
           "units": 0.5,
           "confidence": 2,
-          "event": "Dodgers @ Braves",
-          "time": "3:00 PM PT",
-          "reasoning": "Sale had 200 strikeouts in 162.2 innings and struck out 11 Dodgers in his August shutout. Be aware: he cleared 7.5 in only 12 of 27 starts (44%), roughly what +115 implies. Bet this only if you believe the Dodger history matters.",
+          "event": "Guardians @ Rays",
+          "time": "5:00 PM PT",
+          "reasoning": "Covers' pick for this game, against a back-end Cleveland starter (Foster Griffin) and a taxed bullpen. A single plus a run scored clears it. Price is an estimate.",
           "sources": [
-            {"title": "SI prop", "url": "https://www.si.com/betting/dodgers-vs-braves-prediction-odds-probable-pitchers-prop-bets-for-nlds-game-3-01m46y38f78j"},
-            {"title": "TheSpread (August shutout)", "url": "https://www.thespread.com/mlb-articles/dodgers-vs-braves-prediction-october-6-2026/"}
+            {"title": "Covers ALCS Game 1", "url": "https://www.covers.com/mlb/guardians-vs-rays-prediction-picks-odds-monday-10-12-2026"}
           ]
         }
       ]
@@ -225,199 +166,131 @@
       "id": "football",
       "label": "Football",
       "icon": "🏈",
-      "slate": "Tuesday night Sun Belt game: Southern Miss @ Troy. NFL is back Thursday.",
+      "slate": "Monday Night Football: Bills (3-1) @ Rams (2-2), SoFi Stadium, 5:15 PM PT.",
       "straight": [
         {
-          "pick": "Southern Miss +10.5",
+          "pick": "Rams -3.5",
           "market": "Spread",
-          "odds": -115,
+          "odds": -110,
           "units": 1,
           "confidence": 3,
-          "event": "NCAAF · Southern Miss @ Troy",
-          "time": "5:00 PM PT",
-          "reasoning": "Troy is 130th nationally in scoring (21.3 points per game), gets 3.9 yards per carry against FBS teams, and its QB completes 52% of his passes. A team that can't score shouldn't be laying double digits, and Troy is 0-2 ATS as a 10.5+ favorite. Southern Miss lost by 3 to Tulane last week. Take +11 if you find it.",
+          "event": "Bills @ Rams",
+          "time": "5:15 PM PT",
+          "reasoning": "The line moved through 3 to 3.5 even though 79% of spread tickets are on Buffalo. Buffalo is without Ed Oliver and Josh Palmer, CB Benford missed last week, and Moore is questionable. LA's run game (2nd in adjusted line yards) faces Buffalo's 31st-ranked run defense. The Rams allow 4.2 yards per play, 2nd in the league. The risk is Stafford's 6 interceptions in four games. Don't pay -4.",
           "sources": [
-            {"title": "VSiN pick", "url": "https://vsin.com/college-football/college-football-week-6-picks-southern-miss-vs-troy/"},
-            {"title": "FanDuel Research", "url": "https://www.fanduel.com/research/troy-vs-southern-miss-college-football-odds-picks-best-bets-for-10-6-2026"}
-          ]
-        }
-      ],
-      "parlay": [],
-      "props": []
-    },
-    {
-      "id": "soccer",
-      "label": "Soccer",
-      "icon": "⚽",
-      "slate": "Nations League at 11:45 AM PT: Croatia vs Spain, England vs Czechia. Friendly at 5:00 PM PT: USMNT vs Canada in St. Paul.",
-      "straight": [
-        {
-          "pick": "Spain -1.5",
-          "market": "Goal spread",
-          "odds": -133,
-          "units": 0.75,
-          "confidence": 3,
-          "event": "Croatia vs Spain",
-          "time": "11:45 AM PT",
-          "reasoning": "Croatia lost 7-0 at home to England on Saturday, is conceding 4.0 goals per game, and is missing defenders Erlić and Juranović. Spain is 3-0, scoring 3.33 goals per game. A 2-goal win is a better price than Spain's -376 moneyline.",
-          "sources": [
-            {"title": "SportsBettingDime preview", "url": "https://www.sportsbettingdime.com/news/soccer/croatia-vs-spain-expert-picks-odds-nations-league-2026/"}
-          ]
-        },
-        {
-          "pick": "England -2.5",
-          "market": "Goal spread",
-          "odds": 108,
-          "units": 0.5,
-          "confidence": 2,
-          "event": "England vs Czechia",
-          "time": "11:45 AM PT",
-          "reasoning": "England has 16.3 shots and 3.67 goals per game; Czechia has 4.0 shots per game and zero points. England is missing Rice, Rashford and Reece James, though, so a 3-goal margin is a real ask. Half unit at plus money.",
-          "sources": [
-            {"title": "SportsBettingDime preview", "url": "https://www.sportsbettingdime.com/news/soccer/england-vs-czechia-expert-picks-best-bets-odds-oct-6/"}
-          ]
-        },
-        {
-          "pick": "USMNT ML",
-          "market": "Moneyline (90 min)",
-          "odds": -165,
-          "units": 0.5,
-          "confidence": 2,
-          "event": "USA vs Canada · friendly",
-          "time": "5:00 PM PT",
-          "reasoning": "The US has scored 2+ goals in five of seven friendlies this year, including 3-0 over Mexico, and is playing at home. Friendlies bring heavy rotation and second-half substitutions, so this is a half unit.",
-          "sources": [
-            {"title": "CBS/SportsLine preview", "url": "https://www.cbssports.com/betting/news/usmnt-canada-prediction-odds-time-tuesday-october-6-2026-international-friendly-picks/"}
+            {"title": "TheSpread preview", "url": "https://www.thespread.com/nfl-articles/bills-vs-rams-prediction-october-12-2026/"},
+            {"title": "Covers ML pick", "url": "https://www.covers.com/nfl/bills-vs-rams-moneyline-pick-odds-week-5-oct-12-2026"}
           ]
         }
       ],
       "parlay": [
         {
-          "title": "Nations League Margins",
+          "title": "Rams Control the Game (SGP)",
           "legs": [
-            {"pick": "Spain -1.5", "odds": -133, "event": "CRO vs ESP"},
-            {"pick": "England -2.5", "odds": 108, "event": "ENG vs CZE"}
+            {"pick": "Rams ML", "odds": -185, "event": "BUF @ LAR"},
+            {"pick": "Tyler Higbee 3+ receptions", "odds": -110, "event": "BUF @ LAR"}
           ],
-          "units": 0.25,
+          "units": 0.5,
           "confidence": 2,
-          "sgp": false,
-          "reasoning": "Both favorites need to win comfortably at the same time, against the two leakiest defenses in the window. Pays almost 4-to-1. Quarter unit."
+          "sgp": true,
+          "reasoning": "With the Rams' other two tight ends hurt, Higbee is a steady short-yardage target in a ball-control game plan — the same game script that leads to a Rams win. Higbee's price is an estimate."
         }
       ],
       "props": [
         {
-          "pick": "Lamine Yamal anytime goal",
+          "pick": "Khalil Shakir 40+ receiving yards",
           "market": "Player prop",
-          "odds": 110,
-          "units": 0.5,
+          "odds": -130,
+          "units": 0.75,
           "confidence": 3,
-          "event": "Croatia vs Spain",
-          "time": "11:45 AM PT",
-          "reasoning": "Four goals in three Nations League games. With Nico Williams out, more chances go his way, against a defense that just conceded seven. Confirm he starts.",
+          "event": "Bills @ Rams",
+          "time": "5:15 PM PT",
+          "reasoning": "Buffalo is short at receiver (Palmer out, Moore questionable). The Rams have allowed the 3rd-most yards to slot receivers and play a lot of zone, where Shakir has been Buffalo's best weapon. Covers projects 51.5 yards. Price is an estimate.",
           "sources": [
-            {"title": "SportsBettingDime preview", "url": "https://www.sportsbettingdime.com/news/soccer/croatia-vs-spain-expert-picks-odds-nations-league-2026/"}
+            {"title": "Covers MNF props", "url": "https://www.covers.com/nfl/bills-vs-rams-props-best-bets-week-5-2026"}
           ]
         },
         {
-          "pick": "Harry Kane anytime goal",
+          "pick": "Tyler Higbee 3+ receptions",
           "market": "Player prop",
-          "odds": -194,
+          "odds": -110,
           "units": 0.5,
-          "confidence": 3,
-          "event": "England vs Czechia",
-          "time": "11:45 AM PT",
-          "reasoning": "England's penalty taker and main finisher against a winless team that allows 2.33 goals per game. It's expensive, so it's a half unit, and it works better as a parlay leg.",
+          "confidence": 2,
+          "event": "Bills @ Rams",
+          "time": "5:15 PM PT",
+          "reasoning": "Higbee has 17 targets and 13 catches over the last two games, and Terrance Ferguson (IR) and Colby Parkinson (inactive) are out. Buffalo allows 5.4 catches a game to tight ends; Hunter Henry caught 5 against them last week. The projection sits right at 3, so it's a half unit. Price is an estimate.",
           "sources": [
-            {"title": "SportsBettingDime preview", "url": "https://www.sportsbettingdime.com/news/soccer/england-vs-czechia-expert-picks-best-bets-odds-oct-6/"}
+            {"title": "Covers MNF props", "url": "https://www.covers.com/nfl/bills-vs-rams-props-best-bets-week-5-2026"}
           ]
         }
       ]
     },
     {
+      "id": "soccer",
+      "label": "Soccer",
+      "icon": "⚽",
+      "slate": "Nothing bettable tonight. Monday's European matches are finished, and there's no MLS or Liga MX in this window.",
+      "straight": [],
+      "parlay": [],
+      "props": []
+    },
+    {
       "id": "hockey",
       "label": "Hockey",
       "icon": "🏒",
-      "slate": "Nine games, including Wild @ Sabres, Blues @ Blackhawks, Kraken @ Golden Knights, Mammoth @ Devils, and Islanders vs Rangers.",
-      "straight": [
-        {
-          "pick": "St. Louis Blues ML",
-          "market": "Moneyline",
-          "odds": -142,
-          "units": 1,
-          "confidence": 3,
-          "event": "Blues @ Blackhawks",
-          "time": "5:00 PM PT",
-          "reasoning": "Chicago is without Connor Bedard. St. Louis comes in rested after shutting out Dallas 4-0 in its opener (Joel Hofer stopped 25). SI has the Blues as a best bet. Playable to -155.",
-          "sources": [
-            {"title": "SI Top Shelf Picks", "url": "https://www.si.com/betting/nhl-best-bets-today-predictions-for-mammoth-devils-blues-blackhawks-panthers-kings-2026"},
-            {"title": "NHL.com: Blues blank Stars", "url": "https://www.nhl.com/blues/news/st-louis-blues-dallas-stars-game-recap-october-2-2026-x8024"}
-          ]
-        },
-        {
-          "pick": "Minnesota Wild ML",
-          "market": "Moneyline",
-          "odds": -113,
-          "units": 0.75,
-          "confidence": 3,
-          "event": "Wild @ Sabres",
-          "time": "4:00 PM PT",
-          "reasoning": "Minnesota averages 3.5 goals per game and Buffalo allows 4.0. Minnesota has been strong as a road favorite in this matchup. At nearly a coin-flip price, the team with the better defense is the value.",
-          "sources": [
-            {"title": "SportsBettingDime NHL picks", "url": "https://www.sportsbettingdime.com/news/nhl/picks-today-best-bets-predictions-oct-6-2026/"}
-          ]
-        },
-        {
-          "pick": "Seattle Kraken ML",
-          "market": "Moneyline",
-          "odds": 142,
-          "units": 0.5,
-          "confidence": 2,
-          "event": "Kraken @ Golden Knights",
-          "time": "7:00 PM PT",
-          "reasoning": "Seattle has allowed 1.33 goals per game with a .940 save percentage. Vegas has allowed 2.67 with an .879 save percentage. Three games is a tiny sample, so it's a half unit at plus money.",
-          "sources": [
-            {"title": "SportsBettingDime NHL picks", "url": "https://www.sportsbettingdime.com/news/nhl/picks-today-best-bets-predictions-oct-6-2026/"}
-          ]
-        }
-      ],
+      "slate": "Golden Knights @ Wild at 5:00 PM PT. Senators @ Devils starts at 4:00 PM PT, so only bet it if it hasn't started. Panthers-Sabres was an afternoon game.",
+      "straight": [],
       "parlay": [
         {
-          "title": "Central Road Favorites",
+          "title": "Wild Top Line (SGP)",
           "legs": [
-            {"pick": "Blues ML", "odds": -142, "event": "STL @ CHI"},
-            {"pick": "Wild ML", "odds": -113, "event": "MIN @ BUF"}
+            {"pick": "Matthew Boldy 1+ point", "odds": -135, "event": "VGK @ MIN"},
+            {"pick": "Joel Eriksson Ek 1+ point", "odds": -105, "event": "VGK @ MIN"}
           ],
-          "units": 0.5,
-          "confidence": 3,
-          "sgp": false,
-          "reasoning": "Two road favorites, each facing a weak opponent: Chicago without Bedard, and a Buffalo defense allowing 4 goals per game. Pays about 2.4-to-1."
+          "units": 0.25,
+          "confidence": 2,
+          "sgp": true,
+          "reasoning": "Minnesota's top line played 4:30 more at 5-on-5 than any other line on Saturday and had 7 points in a 4-1 win. All three are on a power play converting 37.5% (2nd in the NHL), and Vegas has allowed a power-play goal in three of its last four. Covers rates the pair at 50% against a 43% market. Leg prices are estimates."
         }
       ],
       "props": [
         {
-          "pick": "Jack Quinn OVER 2.5 shots on goal",
+          "pick": "Jack Eichel OVER 2.5 shots on goal",
           "market": "Player prop",
-          "odds": -110,
+          "odds": -155,
           "units": 0.5,
           "confidence": 3,
-          "event": "Wild @ Sabres",
-          "time": "4:00 PM PT",
-          "reasoning": "21 shot attempts through two games, 19+ minutes each night, and a top-six role. He was 42nd among forwards in shots per 60 last season. Price is an estimate.",
+          "event": "Golden Knights @ Wild",
+          "time": "5:00 PM PT",
+          "reasoning": "Vegas generates 33 shots a game, and Eichel drives the offense with a team-high 12 points. Dimers' model gives him a 66.5% chance against about 61% implied. Playable to -165.",
           "sources": [
-            {"title": "Covers NHL best bets", "url": "https://www.covers.com/nhl/best-bets-oct-6-2026"}
+            {"title": "Dimers NHL props", "url": "https://www.dimers.com/nhl/news/nhl-player-props-10-12-2026-ac"}
           ]
         },
         {
-          "pick": "Bowen Byram 1+ point",
+          "pick": "William Karlsson OVER 1.5 shots on goal",
           "market": "Player prop",
-          "odds": 130,
+          "odds": -175,
+          "units": 0.5,
+          "confidence": 3,
+          "event": "Golden Knights @ Wild",
+          "time": "5:00 PM PT",
+          "reasoning": "Dimers' model gives him a 70.3% chance against 63.6% implied — the biggest edge among the safer shot props. Two shots is a low bar for a top-six center on a 33-shot team. It's expensive, so a half unit.",
+          "sources": [
+            {"title": "Dimers NHL props", "url": "https://www.dimers.com/nhl/news/nhl-player-props-10-12-2026-ac"}
+          ]
+        },
+        {
+          "pick": "Shane Pinto 1+ point",
+          "market": "Player prop",
+          "odds": 120,
           "units": 0.25,
           "confidence": 2,
-          "event": "Blues @ Blackhawks",
-          "time": "5:00 PM PT",
-          "reasoning": "Byram quarterbacks Chicago's top power-play unit and starts two-thirds of his shifts in the offensive zone, and St. Louis has spent 8+ minutes a night shorthanded. Covers rates it at 44%; at +130 (43% implied) the edge is thin, so it's a quarter unit. Price is an estimate.",
+          "event": "Senators @ Devils",
+          "time": "4:00 PM PT",
+          "reasoning": "Pinto has points in four of five games, plays 19+ minutes as the second-line center, and is getting more power-play time. Covers rates it at 55% against 45% in the market. This game starts at 4:00 PM PT, so skip it if it's already underway. Price is an estimate.",
           "sources": [
-            {"title": "Covers NHL best bets", "url": "https://www.covers.com/nhl/best-bets-oct-6-2026"}
+            {"title": "Covers NHL best bets", "url": "https://www.covers.com/nhl/best-bets-oct-12-2026"}
           ]
         }
       ]
@@ -426,58 +299,16 @@
       "id": "golf",
       "label": "Golf",
       "icon": "⛳",
-      "slate": "Baycurrent Classic, Yokohama Country Club (Japan). 72 players, no cut. Round 1 tees off Wednesday evening PT, so bet before then. Schauffele (+1000) is the defending champ; Smotherman and Tom Kim withdrew.",
-      "straight": [
-        {
-          "pick": "Max Greyserman Top 10",
-          "market": "Finishing position",
-          "odds": 350,
-          "units": 0.5,
-          "confidence": 3,
-          "event": "Baycurrent Classic",
-          "time": "Thu–Sun (Japan)",
-          "reasoning": "Greyserman finished 2nd at this course in each of the last two years, including one shot behind Schauffele last October. Fit at a specific course carries over year to year, and with no cut he gets all four rounds. His outright is +5700; Top 10 is the steadier way to back that course form. Price is an estimate.",
-          "sources": [
-            {"title": "SportsBettingDime picks", "url": "https://www.sportsbettingdime.com/news/golf/baycurrent-classic-picks-predictions-odds-2026/"},
-            {"title": "Golf Channel odds + storylines", "url": "https://golfchannel.com/pga-tour/news/baycurrent-classic-2026-odds-favorites-for-yokohama-country-club"}
-          ]
-        },
-        {
-          "pick": "Jacob Bridgeman Top 10",
-          "market": "Finishing position",
-          "odds": 225,
-          "units": 0.5,
-          "confidence": 2,
-          "event": "Baycurrent Classic",
-          "time": "Thu–Sun (Japan)",
-          "reasoning": "Bridgeman has three straight top-10 finishes, including a win at the Biltmore in Asheville, and the SportsLine model flags him at +2200 to win. Top 10 bets on his form continuing without needing a win. Price is an estimate.",
-          "sources": [
-            {"title": "CBS/SportsLine model", "url": "https://cbssports.com/betting/news/2026-baycurrent-classic-odds-golf-picks-predictions-field"}
-          ]
-        }
-      ],
+      "slate": "No tournament today. The next PGA Tour event's picks will be on the board before Thursday's first round.",
+      "straight": [],
       "parlay": [],
-      "props": [
-        {
-          "pick": "Nico Echavarria Top 20",
-          "market": "Player finish prop",
-          "odds": 200,
-          "units": 0.25,
-          "confidence": 2,
-          "event": "Baycurrent Classic",
-          "time": "Thu–Sun (Japan)",
-          "reasoning": "Echavarria won here in 2024 and added another top 10 at this course after that. At +9400 to win, a Top 20 on a course he knows is the value angle. Price is an estimate.",
-          "sources": [
-            {"title": "SportsBettingDime picks", "url": "https://www.sportsbettingdime.com/news/golf/baycurrent-classic-picks-predictions-odds-2026/"}
-          ]
-        }
-      ]
+      "props": []
     },
     {
       "id": "basketball",
       "label": "Basketball",
       "icon": "🏀",
-      "slate": "No WNBA today. The semifinal Game 2s are Wednesday (Dream lead the Liberty 1-0; Valkyries lead the Aces 1-0) and will be on tomorrow's board. NBA preseason games aren't worth betting — starters play limited minutes.",
+      "slate": "No games. The WNBA Finals (Valkyries vs Dream, both 3-0 sweeps) start Saturday, Oct 17. NBA preseason isn't worth betting.",
       "straight": [],
       "parlay": [],
       "props": []
