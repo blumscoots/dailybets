@@ -1,101 +1,117 @@
 {
-  "date": "2026-10-12",
-  "updated": "2026-10-12T16:10:00-07:00",
-  "headline": "Monday night: Bills @ Rams on MNF, ALCS Game 1 (Guardians @ Rays), and Wild-Golden Knights. NLCS Game 2 and Senators-Devils have already started, and there's no WNBA, golf or soccer tonight.",
+  "date": "2026-10-13",
+  "updated": "2026-10-13T13:30:00-07:00",
+  "headline": "Tuesday: ALCS Game 2 (Guardians lead the Rays 1-0), a 16-game NHL card, and two Tuesday-night college games. Champions League kicked off before noon PT, there's no NFL or WNBA tonight, and no golf until Thursday.",
+  "record": {
+    "label": "Last board (Mon 10/12)",
+    "wins": 5, "losses": 4, "pushes": 0, "pending": 0,
+    "units": -0.48,
+    "note": "Props went 4-0; both sides lost (the Bills won 37-34 in OT). Tue 10/6 went 8-11 (-1.59u). Running total: 40-41-1, +2.30u. A few props couldn't be confirmed from box scores and are left ungraded."
+  },
   "notes": [
-    "Everything here starts around 5:00 PM PT. Bet before first pitch / puck drop / kickoff.",
-    "No game totals again. They went 0-7 on the first two boards.",
-    "No bet is a lock. 'Confidence' runs 1–5, and nothing tonight is above a 3.",
-    "Odds move. Skip any pick whose price is past the 'playable to' number in its reasoning. Prices marked 'estimate' come from prediction-market percentages; check your book."
+    "Player props are the board's best category so far, so tonight leans on them. Sides and totals have been roughly break-even or worse.",
+    "Still no game totals. They're 0-7 since the first board.",
+    "Prices marked 'estimate' are converted from prediction-market percentages. Check your book before betting.",
+    "No bet is a lock. Confidence runs 1–5, and nothing tonight is above a 3."
   ],
   "sections": [
     {
       "id": "best",
       "label": "Best of the Day",
       "icon": "★",
-      "slate": "A short card: three bettable games tonight. These are the picks with the most support.",
+      "slate": "Mostly props tonight, since they've been the board's most reliable category.",
       "straight": [
         {
-          "pick": "Rams -3.5",
-          "market": "Spread",
-          "odds": -110,
+          "pick": "Edmonton Oilers ML",
+          "market": "Moneyline",
+          "odds": -132,
           "units": 1,
           "confidence": 3,
-          "event": "NFL · Bills @ Rams",
-          "time": "5:15 PM PT",
-          "reasoning": "The line moved from Rams -3 to -3.5 even though about 79% of spread tickets are on Buffalo, which points to sharper money on LA. Buffalo is banged up: top pass rusher Ed Oliver and WR Josh Palmer are out, CB Christian Benford missed last week, and D.J. Moore is questionable. The Rams' run game ranks 8th in success rate and 2nd in adjusted line yards, and Buffalo is 31st at stopping handoffs. That lets LA control the clock and limit Josh Allen's possessions. The Rams also allow just 4.2 yards per play, 2nd in the NFL. Don't pay -4.",
+          "event": "NHL · Oilers @ Kings",
+          "time": "7:30 PM PT",
+          "reasoning": "Edmonton is 4-0-1 and Los Angeles is 0-2-2. numberFire gives the Oilers a 58.8% chance to win, which is worth about -143, so -132 is slightly cheap. McDavid and Draisaitl have driven the offense from the start; Draisaitl scored twice in the 9-7 win at Vancouver earlier this month. Playable to -140.",
           "sources": [
-            {"title": "TheSpread preview + splits", "url": "https://www.thespread.com/nfl-articles/bills-vs-rams-prediction-october-12-2026/"},
-            {"title": "Covers moneyline pick", "url": "https://www.covers.com/nfl/bills-vs-rams-moneyline-pick-odds-week-5-oct-12-2026"}
+            {"title": "FanDuel Research NHL picks", "url": "https://www.fanduel.com/research/nhl-picks-today-4-nhl-best-bets-predictions-and-props-for-tuesday-october-13"}
           ]
         },
         {
           "pick": "Tampa Bay Rays ML",
           "market": "Moneyline",
-          "odds": -150,
-          "units": 1,
+          "odds": -133,
+          "units": 0.75,
           "confidence": 3,
-          "event": "MLB · ALCS Game 1 · Guardians @ Rays",
+          "event": "MLB · ALCS Game 2 · Guardians @ Rays",
           "time": "5:00 PM PT",
-          "reasoning": "Drew Rasmussen gave up one hit over eight innings with 10 strikeouts against the Yankees in the ALDS, and he struck out 15 Guardians in 12 innings this season. Cleveland counters with Foster Griffin (3.38 ERA) and a bullpen taxed by its ALDS. Tampa Bay had five days of rest. The market has the Rays around 60%. Playable to -160 (price is an estimate).",
+          "reasoning": "Cleveland starts lefty Parker Messick, who has a 5.40 ERA and six walks in 6.2 postseason innings and hasn't gotten through five innings in either start. numberFire puts the Rays at 60%. Last night's Rays pick lost when Cleveland's bullpen took over late, so this is 0.75u. Playable to -145.",
           "sources": [
-            {"title": "Covers ALCS Game 1", "url": "https://www.covers.com/mlb/guardians-vs-rays-prediction-picks-odds-monday-10-12-2026"},
-            {"title": "Athlon LCS bets", "url": "https://athlonsports.com/betting/best-mlb-lcs-playoff-prop-bets-odds-monday-oct12-2026"}
+            {"title": "Athlon ALCS Game 2", "url": "https://athlonsports.com/betting/best-mlb-playoff-alcs-game2-prop-bets-odds-tuesday-oct13-2026"},
+            {"title": "FanDuel Research odds", "url": "https://www.fanduel.com/research/mlb-playoff-betting-odds-10-13-2026"}
           ]
         }
       ],
       "parlay": [
         {
-          "title": "Monday Night Favorites",
+          "title": "Shot Volume Trio",
           "legs": [
-            {"pick": "Rams ML", "odds": -185, "event": "NFL · BUF @ LAR"},
-            {"pick": "Rays ML", "odds": -150, "event": "MLB · CLE @ TB"}
+            {"pick": "Bobby McMann OVER 2.5 shots", "odds": 108, "event": "SEA @ PHI"},
+            {"pick": "Ben Kindel OVER 1.5 shots", "odds": -150, "event": "PIT @ CHI"},
+            {"pick": "Nathan MacKinnon OVER 3.5 shots", "odds": -113, "event": "COL @ DAL"}
           ],
           "units": 0.5,
-          "confidence": 3,
+          "confidence": 2,
           "sgp": false,
-          "reasoning": "Two home favorites with clear matchup edges, combined into a plus-money ticket. Using the Rams moneyline instead of -3.5 means a Rams win by 1-3 still pays."
+          "reasoning": "Three shot props from three different games, each built on volume: McMann has cleared 2.5 in all six games, Kindel cleared 1.5 in 17 of his last 20 games with 15+ minutes, and MacKinnon averages 4.6 shots. Pays roughly 6-to-1. McMann and Kindel prices are estimates."
+        },
+        {
+          "title": "Late Favorites",
+          "legs": [
+            {"pick": "Oilers ML", "odds": -132, "event": "EDM @ LAK"},
+            {"pick": "Rays ML", "odds": -133, "event": "CLE @ TB"}
+          ],
+          "units": 0.5,
+          "confidence": 2,
+          "sgp": false,
+          "reasoning": "Two favorites that are priced a bit below what the models give them. Pays about 2.4-to-1."
         }
       ],
       "props": [
         {
-          "pick": "Drew Rasmussen OVER 5.5 strikeouts",
+          "pick": "Bobby McMann OVER 2.5 shots on goal",
           "market": "Player prop",
-          "odds": -128,
+          "odds": 108,
           "units": 0.75,
           "confidence": 3,
-          "event": "ALCS Game 1 · Guardians @ Rays",
-          "time": "5:00 PM PT",
-          "reasoning": "He has 10+ strikeouts in each of his last two starts and struck out 15 Guardians in 12 innings this season. Six strikeouts is a modest bar for that form. Playable to -145.",
+          "event": "NHL · Kraken @ Flyers",
+          "time": "4:00 PM PT",
+          "reasoning": "McMann has cleared 2.5 shots in all six games this season and averages 6.3 shot attempts. Nearly half his shots come from the slot, and the Flyers rank last in slot shots allowed. Plus money for something that's happened every game. Price is an estimate from a 48% market.",
           "sources": [
-            {"title": "Athlon LCS props", "url": "https://athlonsports.com/betting/best-mlb-lcs-playoff-prop-bets-odds-monday-oct12-2026"}
+            {"title": "Covers NHL best bets", "url": "https://www.covers.com/nhl/best-bets-oct-13-2026"}
           ]
         },
         {
-          "pick": "Khalil Shakir 40+ receiving yards",
+          "pick": "Nathan MacKinnon OVER 3.5 shots on goal",
           "market": "Player prop",
-          "odds": -130,
+          "odds": -113,
           "units": 0.75,
           "confidence": 3,
-          "event": "NFL · Bills @ Rams",
-          "time": "5:15 PM PT",
-          "reasoning": "Palmer is out and Moore is questionable, so Shakir should see extra targets. The Rams have allowed the 3rd-most yards to slot receivers and play zone at the 8th-highest rate, which is the coverage Shakir has beaten most over the last three seasons. Covers projects 51.5 yards. Price is an estimate from a 57% market probability.",
+          "event": "NHL · Avalanche @ Stars",
+          "time": "5:30 PM PT",
+          "reasoning": "MacKinnon has 23 shots in five games (4.6 per game) and averaged 4.38 a game over 80 games last season. He plays heavy minutes and runs the first power-play unit. Playable to -130.",
           "sources": [
-            {"title": "Covers MNF props", "url": "https://www.covers.com/nfl/bills-vs-rams-props-best-bets-week-5-2026"}
+            {"title": "FanDuel Research NHL picks", "url": "https://www.fanduel.com/research/nhl-picks-today-4-nhl-best-bets-predictions-and-props-for-tuesday-october-13"}
           ]
         },
         {
-          "pick": "Jack Eichel OVER 2.5 shots on goal",
-          "market": "Player prop",
-          "odds": -155,
-          "units": 0.5,
+          "pick": "Parker Messick UNDER 14.5 outs",
+          "market": "Pitcher prop",
+          "odds": -108,
+          "units": 0.75,
           "confidence": 3,
-          "event": "NHL · Golden Knights @ Wild",
+          "event": "MLB · Guardians @ Rays",
           "time": "5:00 PM PT",
-          "reasoning": "Vegas averages 33 shots a game and Eichel leads the team with 12 points. Dimers' model puts him at 66.5% to get 3+ shots, about 6 points above what -155 implies. Playable to -165.",
+          "reasoning": "That's fewer than 5 innings. Messick has gone 4.1 and 2.1 innings in his two postseason starts, with six walks. Cleveland's bullpen just won Game 1 for them, so the Guardians will go to it early again.",
           "sources": [
-            {"title": "Dimers NHL props", "url": "https://www.dimers.com/nhl/news/nhl-player-props-10-12-2026-ac"},
-            {"title": "TheSpread (Vegas shot volume)", "url": "https://www.thespread.com/nhl-articles/golden-knights-vs-wild-prediction-october-12-2026/"}
+            {"title": "Athlon ALCS Game 2", "url": "https://athlonsports.com/betting/best-mlb-playoff-alcs-game2-prop-bets-odds-tuesday-oct13-2026"}
           ]
         }
       ]
@@ -104,60 +120,61 @@
       "id": "baseball",
       "label": "Baseball",
       "icon": "⚾",
-      "slate": "ALCS Game 1: Guardians @ Rays (Griffin vs Rasmussen), 5:00 PM PT. NLCS Game 2 (Dodgers @ Brewers, MIL leads 1-0) started at 2 PM PT, so it isn't on the board.",
+      "slate": "ALCS Game 2: Guardians @ Rays at 5:00 PM PT (Cleveland leads 1-0 after winning 7-3). Parker Messick starts for Cleveland; FanDuel lists Freddy Peralta for Tampa Bay. No NLCS game today.",
       "straight": [
         {
           "pick": "Tampa Bay Rays ML",
           "market": "Moneyline",
-          "odds": -150,
-          "units": 1,
+          "odds": -133,
+          "units": 0.75,
           "confidence": 3,
-          "event": "ALCS Game 1 · Guardians @ Rays",
+          "event": "ALCS Game 2 · Guardians @ Rays",
           "time": "5:00 PM PT",
-          "reasoning": "Rasmussen has a 0.00 postseason ERA (8 IP, 1 hit, 10 K vs NYY) and dominated Cleveland in the regular season. The Rays had five days of rest, while Cleveland's bullpen was taxed in its ALDS. Playable to -160 (price is an estimate).",
+          "reasoning": "Messick has a 5.40 postseason ERA and six walks in 6.2 innings. Tampa Bay won 98 games, and numberFire has the Rays at 60%. Playable to -145.",
           "sources": [
-            {"title": "Covers ALCS Game 1", "url": "https://www.covers.com/mlb/guardians-vs-rays-prediction-picks-odds-monday-10-12-2026"}
+            {"title": "Athlon ALCS Game 2", "url": "https://athlonsports.com/betting/best-mlb-playoff-alcs-game2-prop-bets-odds-tuesday-oct13-2026"},
+            {"title": "FanDuel Research odds", "url": "https://www.fanduel.com/research/mlb-playoff-betting-odds-10-13-2026"}
           ]
         }
       ],
       "parlay": [
         {
-          "title": "Rasmussen Dominates (SGP)",
+          "title": "Messick Exits Early (SGP)",
           "legs": [
-            {"pick": "Rays ML", "odds": -150, "event": "CLE @ TB"},
-            {"pick": "Drew Rasmussen OVER 5.5 strikeouts", "odds": -128, "event": "CLE @ TB"}
+            {"pick": "Rays ML", "odds": -133, "event": "CLE @ TB"},
+            {"pick": "Parker Messick UNDER 14.5 outs", "odds": -108, "event": "CLE @ TB"}
           ],
           "units": 0.5,
           "confidence": 3,
           "sgp": true,
-          "reasoning": "If Rasmussen is piling up strikeouts, Tampa Bay is probably winning — the two go together. Books price that correlation in, so expect less than the multiplied odds."
+          "reasoning": "If Tampa Bay gets to Messick early, he's out of the game and the Rays are probably ahead — the two outcomes go together. Books price that correlation in."
         }
       ],
       "props": [
         {
-          "pick": "Drew Rasmussen OVER 5.5 strikeouts",
-          "market": "Player prop",
-          "odds": -128,
+          "pick": "Parker Messick UNDER 14.5 outs",
+          "market": "Pitcher prop",
+          "odds": -108,
           "units": 0.75,
           "confidence": 3,
           "event": "Guardians @ Rays",
           "time": "5:00 PM PT",
-          "reasoning": "10+ strikeouts in each of his last two starts, and 15 strikeouts in 12 innings against Cleveland this season. Playable to -145.",
+          "reasoning": "He went 4.1 and 2.1 innings in his two postseason starts and has walked six batters. Under 5 innings is the expected outcome.",
           "sources": [
-            {"title": "Athlon LCS props", "url": "https://athlonsports.com/betting/best-mlb-lcs-playoff-prop-bets-odds-monday-oct12-2026"}
+            {"title": "Athlon ALCS Game 2", "url": "https://athlonsports.com/betting/best-mlb-playoff-alcs-game2-prop-bets-odds-tuesday-oct13-2026"}
           ]
         },
         {
-          "pick": "Jonathan Aranda OVER 1.5 hits+runs+RBIs",
+          "pick": "Yandy Díaz OVER 1.5 hits+runs+RBIs",
           "market": "Player prop",
-          "odds": -120,
+          "odds": -125,
           "units": 0.5,
           "confidence": 2,
           "event": "Guardians @ Rays",
           "time": "5:00 PM PT",
-          "reasoning": "Covers' pick for this game, against a back-end Cleveland starter (Foster Griffin) and a taxed bullpen. A single plus a run scored clears it. Price is an estimate.",
+          "reasoning": "Díaz has a hit in every postseason game, went 2-for-5 with a run in Game 1, and is 3-for-11 with a double against Messick. A single plus a run or RBI clears it.",
           "sources": [
-            {"title": "Covers ALCS Game 1", "url": "https://www.covers.com/mlb/guardians-vs-rays-prediction-picks-odds-monday-10-12-2026"}
+            {"title": "Athlon ALCS Game 2", "url": "https://athlonsports.com/betting/best-mlb-playoff-alcs-game2-prop-bets-odds-tuesday-oct13-2026"}
           ]
         }
       ]
@@ -166,70 +183,31 @@
       "id": "football",
       "label": "Football",
       "icon": "🏈",
-      "slate": "Monday Night Football: Bills (3-1) @ Rams (2-2), SoFi Stadium, 5:15 PM PT.",
+      "slate": "Tuesday college football: Delaware @ Middle Tennessee (4:00 PM PT), FIU vs Jacksonville State (5:00 PM PT). No NFL until Thursday.",
       "straight": [
         {
-          "pick": "Rams -3.5",
+          "pick": "Middle Tennessee +1.5",
           "market": "Spread",
           "odds": -110,
-          "units": 1,
-          "confidence": 3,
-          "event": "Bills @ Rams",
-          "time": "5:15 PM PT",
-          "reasoning": "The line moved through 3 to 3.5 even though 79% of spread tickets are on Buffalo. Buffalo is without Ed Oliver and Josh Palmer, CB Benford missed last week, and Moore is questionable. LA's run game (2nd in adjusted line yards) faces Buffalo's 31st-ranked run defense. The Rams allow 4.2 yards per play, 2nd in the league. The risk is Stafford's 6 interceptions in four games. Don't pay -4.",
+          "units": 0.5,
+          "confidence": 2,
+          "event": "NCAAF · Delaware @ Middle Tennessee",
+          "time": "4:00 PM PT",
+          "reasoning": "Delaware has flipped from a 1.5-point underdog to a 1.5-point road favorite even though starting QB Nick Minicucci is out for the season and the team just lost 42-3 and 30-14. Action Network's staff fades Delaware here. MTSU is bad too (shut out 55-0 by Kansas), so this is a half unit.",
           "sources": [
-            {"title": "TheSpread preview", "url": "https://www.thespread.com/nfl-articles/bills-vs-rams-prediction-october-12-2026/"},
-            {"title": "Covers ML pick", "url": "https://www.covers.com/nfl/bills-vs-rams-moneyline-pick-odds-week-5-oct-12-2026"}
+            {"title": "Yahoo/Action staff picks", "url": "https://sports.yahoo.com/articles/tuesday-college-football-predictions-picks-140721914.html"},
+            {"title": "Yahoo/Action game preview", "url": "https://sports.yahoo.com/articles/delaware-vs-middle-tennessee-prediction-120359795.html"}
           ]
         }
       ],
-      "parlay": [
-        {
-          "title": "Rams Control the Game (SGP)",
-          "legs": [
-            {"pick": "Rams ML", "odds": -185, "event": "BUF @ LAR"},
-            {"pick": "Tyler Higbee 3+ receptions", "odds": -110, "event": "BUF @ LAR"}
-          ],
-          "units": 0.5,
-          "confidence": 2,
-          "sgp": true,
-          "reasoning": "With the Rams' other two tight ends hurt, Higbee is a steady short-yardage target in a ball-control game plan — the same game script that leads to a Rams win. Higbee's price is an estimate."
-        }
-      ],
-      "props": [
-        {
-          "pick": "Khalil Shakir 40+ receiving yards",
-          "market": "Player prop",
-          "odds": -130,
-          "units": 0.75,
-          "confidence": 3,
-          "event": "Bills @ Rams",
-          "time": "5:15 PM PT",
-          "reasoning": "Buffalo is short at receiver (Palmer out, Moore questionable). The Rams have allowed the 3rd-most yards to slot receivers and play a lot of zone, where Shakir has been Buffalo's best weapon. Covers projects 51.5 yards. Price is an estimate.",
-          "sources": [
-            {"title": "Covers MNF props", "url": "https://www.covers.com/nfl/bills-vs-rams-props-best-bets-week-5-2026"}
-          ]
-        },
-        {
-          "pick": "Tyler Higbee 3+ receptions",
-          "market": "Player prop",
-          "odds": -110,
-          "units": 0.5,
-          "confidence": 2,
-          "event": "Bills @ Rams",
-          "time": "5:15 PM PT",
-          "reasoning": "Higbee has 17 targets and 13 catches over the last two games, and Terrance Ferguson (IR) and Colby Parkinson (inactive) are out. Buffalo allows 5.4 catches a game to tight ends; Hunter Henry caught 5 against them last week. The projection sits right at 3, so it's a half unit. Price is an estimate.",
-          "sources": [
-            {"title": "Covers MNF props", "url": "https://www.covers.com/nfl/bills-vs-rams-props-best-bets-week-5-2026"}
-          ]
-        }
-      ]
+      "parlay": [],
+      "props": []
     },
     {
       "id": "soccer",
       "label": "Soccer",
       "icon": "⚽",
-      "slate": "Nothing bettable tonight. Monday's European matches are finished, and there's no MLS or Liga MX in this window.",
+      "slate": "Nothing bettable pregame. Today's Champions League and Championship matches kicked off before noon PT.",
       "straight": [],
       "parlay": [],
       "props": []
@@ -238,59 +216,137 @@
       "id": "hockey",
       "label": "Hockey",
       "icon": "🏒",
-      "slate": "Golden Knights @ Wild at 5:00 PM PT. Senators @ Devils starts at 4:00 PM PT, so only bet it if it hasn't started. Panthers-Sabres was an afternoon game.",
-      "straight": [],
+      "slate": "16 games. The early ones (Panthers @ Blue Jackets at 3:15 PT, Kraken @ Flyers at 4:00, Lightning @ Rangers at 4:15) start soonest. The late game is Oilers @ Kings at 7:30.",
+      "straight": [
+        {
+          "pick": "Edmonton Oilers ML",
+          "market": "Moneyline",
+          "odds": -132,
+          "units": 1,
+          "confidence": 3,
+          "event": "Oilers @ Kings",
+          "time": "7:30 PM PT",
+          "reasoning": "Edmonton is 4-0-1 and Los Angeles is 0-2-2. numberFire's 58.8% win probability is worth about -143. Playable to -140.",
+          "sources": [
+            {"title": "FanDuel Research NHL picks", "url": "https://www.fanduel.com/research/nhl-picks-today-4-nhl-best-bets-predictions-and-props-for-tuesday-october-13"}
+          ]
+        },
+        {
+          "pick": "Nashville Predators ML",
+          "market": "Moneyline",
+          "odds": 106,
+          "units": 0.5,
+          "confidence": 3,
+          "event": "Golden Knights @ Predators",
+          "time": "5:45 PM PT",
+          "reasoning": "Vegas played last night in Minnesota and lost 4-2, so this is the second night of a back-to-back on the road. numberFire gives Nashville 53.4% (worth about -115), but they're priced as an underdog. Nashville took 4 of 6 points on its last road trip.",
+          "sources": [
+            {"title": "FanDuel Research NHL picks", "url": "https://www.fanduel.com/research/nhl-picks-today-4-nhl-best-bets-predictions-and-props-for-tuesday-october-13"},
+            {"title": "NHL.com: Wild 4, Golden Knights 2", "url": "https://www.nhl.com/news/vegas-golden-knights-minnesota-wild-game-recap-october-12-2026"}
+          ]
+        }
+      ],
       "parlay": [
         {
-          "title": "Wild Top Line (SGP)",
+          "title": "Fade the Tired Team + Oilers",
           "legs": [
-            {"pick": "Matthew Boldy 1+ point", "odds": -135, "event": "VGK @ MIN"},
-            {"pick": "Joel Eriksson Ek 1+ point", "odds": -105, "event": "VGK @ MIN"}
+            {"pick": "Predators ML", "odds": 106, "event": "VGK @ NSH"},
+            {"pick": "Oilers ML", "odds": -132, "event": "EDM @ LAK"}
+          ],
+          "units": 0.5,
+          "confidence": 2,
+          "sgp": false,
+          "reasoning": "Both legs are priced below their model win probabilities. Pays about 3.8-to-1."
+        },
+        {
+          "title": "Avs Top Line (SGP)",
+          "legs": [
+            {"pick": "Nathan MacKinnon OVER 3.5 shots on goal", "odds": -113, "event": "COL @ DAL"},
+            {"pick": "Nathan MacKinnon 1+ point", "odds": -250, "event": "COL @ DAL"}
           ],
           "units": 0.25,
           "confidence": 2,
           "sgp": true,
-          "reasoning": "Minnesota's top line played 4:30 more at 5-on-5 than any other line on Saturday and had 7 points in a 4-1 win. All three are on a power play converting 37.5% (2nd in the NHL), and Vegas has allowed a power-play goal in three of its last four. Covers rates the pair at 50% against a 43% market. Leg prices are estimates."
+          "reasoning": "MacKinnon has 10 points in five games. When he's shooting at a high rate, he's usually producing points too. The point price is an estimate, and the book will discount this correlated parlay."
         }
       ],
       "props": [
         {
-          "pick": "Jack Eichel OVER 2.5 shots on goal",
+          "pick": "Bobby McMann OVER 2.5 shots on goal",
           "market": "Player prop",
-          "odds": -155,
-          "units": 0.5,
+          "odds": 108,
+          "units": 0.75,
           "confidence": 3,
-          "event": "Golden Knights @ Wild",
-          "time": "5:00 PM PT",
-          "reasoning": "Vegas generates 33 shots a game, and Eichel drives the offense with a team-high 12 points. Dimers' model gives him a 66.5% chance against about 61% implied. Playable to -165.",
+          "event": "Kraken @ Flyers",
+          "time": "4:00 PM PT",
+          "reasoning": "6-for-6 on this line this season, 6.3 shot attempts per game, and the Flyers give up the most slot shots in the league. Price is an estimate.",
           "sources": [
-            {"title": "Dimers NHL props", "url": "https://www.dimers.com/nhl/news/nhl-player-props-10-12-2026-ac"}
+            {"title": "Covers NHL best bets", "url": "https://www.covers.com/nhl/best-bets-oct-13-2026"}
           ]
         },
         {
-          "pick": "William Karlsson OVER 1.5 shots on goal",
+          "pick": "Nathan MacKinnon OVER 3.5 shots on goal",
           "market": "Player prop",
-          "odds": -175,
-          "units": 0.5,
+          "odds": -113,
+          "units": 0.75,
           "confidence": 3,
-          "event": "Golden Knights @ Wild",
-          "time": "5:00 PM PT",
-          "reasoning": "Dimers' model gives him a 70.3% chance against 63.6% implied — the biggest edge among the safer shot props. Two shots is a low bar for a top-six center on a 33-shot team. It's expensive, so a half unit.",
+          "event": "Avalanche @ Stars",
+          "time": "5:30 PM PT",
+          "reasoning": "4.6 shots per game this season and 4.38 last season, with 4+ in three of his last five. Playable to -130.",
           "sources": [
-            {"title": "Dimers NHL props", "url": "https://www.dimers.com/nhl/news/nhl-player-props-10-12-2026-ac"}
+            {"title": "FanDuel Research NHL picks", "url": "https://www.fanduel.com/research/nhl-picks-today-4-nhl-best-bets-predictions-and-props-for-tuesday-october-13"}
           ]
         },
         {
-          "pick": "Shane Pinto 1+ point",
+          "pick": "Ben Kindel OVER 1.5 shots on goal",
           "market": "Player prop",
-          "odds": 120,
+          "odds": -150,
+          "units": 0.5,
+          "confidence": 3,
+          "event": "Penguins @ Blackhawks",
+          "time": "5:00 PM PT",
+          "reasoning": "He's cleared 1.5 shots in 17 of his last 20 games when playing 15+ minutes (85%), and he's played 17+ minutes in four straight. Chicago is 29th in shots allowed per 60. Price is an estimate from a 60% market.",
+          "sources": [
+            {"title": "Covers NHL best bets", "url": "https://www.covers.com/nhl/best-bets-oct-13-2026"}
+          ]
+        },
+        {
+          "pick": "Zach Werenski 1+ assist",
+          "market": "Player prop",
+          "odds": -170,
+          "units": 0.5,
+          "confidence": 3,
+          "event": "Panthers @ Blue Jackets",
+          "time": "3:15 PM PT",
+          "reasoning": "Four assists in four games and 59 assists last season. Columbus generates the most scoring chances with him on the ice. This one starts at 3:15 PT, so bet it first. Price is an estimate.",
+          "sources": [
+            {"title": "Covers NHL props", "url": "https://www.covers.com/nhl/player-prop-picks-oct-13-2026"}
+          ]
+        },
+        {
+          "pick": "Dylan Guenther OVER 3.5 shots on goal",
+          "market": "Player prop",
+          "odds": 122,
           "units": 0.25,
           "confidence": 2,
-          "event": "Senators @ Devils",
-          "time": "4:00 PM PT",
-          "reasoning": "Pinto has points in four of five games, plays 19+ minutes as the second-line center, and is getting more power-play time. Covers rates it at 55% against 45% in the market. This game starts at 4:00 PM PT, so skip it if it's already underway. Price is an estimate.",
+          "event": "Maple Leafs @ Mammoth",
+          "time": "6:00 PM PT",
+          "reasoning": "Guenther averages 3.67 shots and has gone over 3.5 in four of six games. Toronto is 28th in shots allowed and gives up 8.3 shots a game to right wingers. Price is an estimate.",
           "sources": [
-            {"title": "Covers NHL best bets", "url": "https://www.covers.com/nhl/best-bets-oct-12-2026"}
+            {"title": "Covers NHL props", "url": "https://www.covers.com/nhl/player-prop-picks-oct-13-2026"}
+          ]
+        },
+        {
+          "pick": "Brandon Hagel anytime goal",
+          "market": "Player prop",
+          "odds": 185,
+          "units": 0.25,
+          "confidence": 2,
+          "event": "Lightning @ Rangers",
+          "time": "4:15 PM PT",
+          "reasoning": "Four goals in five games, and he leads Tampa Bay in scoring chances. The Rangers are down to their third goalie, Dylan Garand, with Shesterkin out for the season and Korpisalo also out. A long shot, so a quarter unit. Price is an estimate.",
+          "sources": [
+            {"title": "Covers NHL props", "url": "https://www.covers.com/nhl/player-prop-picks-oct-13-2026"}
           ]
         }
       ]
@@ -299,7 +355,7 @@
       "id": "golf",
       "label": "Golf",
       "icon": "⛳",
-      "slate": "No tournament today. The next PGA Tour event's picks will be on the board before Thursday's first round.",
+      "slate": "No tournament today. Last week, Jacob Bridgeman (our Top 10 pick) finished T2 and Michael Brennan won the Baycurrent Classic.",
       "straight": [],
       "parlay": [],
       "props": []
@@ -308,7 +364,7 @@
       "id": "basketball",
       "label": "Basketball",
       "icon": "🏀",
-      "slate": "No games. The WNBA Finals (Valkyries vs Dream, both 3-0 sweeps) start Saturday, Oct 17. NBA preseason isn't worth betting.",
+      "slate": "No games worth betting. The WNBA Finals (Valkyries vs Dream) start Saturday at 12:30 PM PT. NBA preseason is skipped.",
       "straight": [],
       "parlay": [],
       "props": []
